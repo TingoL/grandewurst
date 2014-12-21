@@ -5,9 +5,11 @@ Kobaja grande oujea
 
 ##ToDo
 
-* Mozemo ovde
-* drzati
-* listu
+* Napraviti sajt
+* Baciti ga na server
+*
+* ???
+* 200 evra
 
 |Zadatak|Preuzeo|Zavrsen|Pregledan|
 |-------|-------|------|---------|
