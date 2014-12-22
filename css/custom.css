@@ -1,17 +1,31 @@
+/* Heading and navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-  background-color: #b0c4de; 
-  width=100%;
-}
+  background: #2C8437;
+  padding: 10px, 0; }
+header h1.logo {
+	margin: 7px, 0, 0, 0;
+	float: left; }
+header h1.logo a {
+	width: 264px;
+	height: 94px;
+	display: block;
+	background: url(../images/logo_txt.png) no-repeat 0 0;
+	/* hide logo text*/
+	font: 0/0 a;
+	text-shadow: none;
+	color: transparent; }
+nav {
+	background: #343434; }
 
+
+/* Sections (izmeniti nazive klasa)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .info-section {
-  text-align: center;
-}
-
+  text-align: center; }
 .section {
 padding: 8rem 0 7rem;
-text-align: center;
-}
+text-align: center; }
 .section-heading,
 .section-description {
-margin-bottom: 1.2rem;
-}
+margin-bottom: 1.2rem; }
