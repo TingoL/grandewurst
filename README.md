@@ -13,5 +13,5 @@ Kobaja grande oujea
 
 |Zadatak|Preuzeo|Zavrsen|Pregledan|
 |-------|-------|------|---------|
-|FrontPage|Amel|50%|Ne|
-|ImgCss|Carmack|100%|Da|
+|JQ slajder||||
+
