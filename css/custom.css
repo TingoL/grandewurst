@@ -121,3 +121,58 @@ text-align: center;
 .section-description {
 margin-bottom: 1.2rem; 
 }
+
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+	background: #343434;
+	padding: 68px 0 46px 0;
+	margin: 0;
+}
+
+
+footer ul li {
+	line-height: 16px;
+	display: block;
+	list-style: none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
+
+.social ul {
+	float: right;
+	margin-top: 20px;
+}
+
+.social ul li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-googleplus {
+	display: block;
+	max-width: 46px;
+	max-height: 46px;
+}
+
+
+/* Bottom
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bottom-copyr {
+	background: #2C8437;
+	text-align: center;
+}
+
+.bottom-copyr p {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0;
+}
