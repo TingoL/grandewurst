@@ -1,31 +1,123 @@
-/* Heading and navigation
+/* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
   background: #2C8437;
-  padding: 10px, 0; }
+  padding: 4px 0; 
+}
+
 header h1.logo {
-	margin: 7px, 0, 0, 0;
-	float: left; }
+	margin: 0;
+	float: left; 
+}
+
 header h1.logo a {
 	width: 264px;
 	height: 94px;
 	display: block;
 	background: url(../images/logo_txt.png) no-repeat 0 0;
+	
 	/* hide logo text*/
 	font: 0/0 a;
 	text-shadow: none;
-	color: transparent; }
-nav {
-	background: #343434; }
+	color: transparent; 
+}
 
+
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+	background: #343434; 
+}
+
+.primary {
+	float: right;
+}
+
+.primary ul,
+.primary ul li {
+	margin: 0px;
+}
+
+.primary ul li {
+	display: inline;
+	float: left;
+	position: relative;
+}
+
+.primary ul li a {
+	display: inline-block;
+	line-height: 49px;
+	padding: 0 20px;
+	color: #ebebeb;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 0.08rem;
+}
+
+.primary ul li a:hover {
+	background: #424242;
+	cursor: pointer;
+}
+
+/*sub menu*/
+.primary ul ul {
+	opacity: 0;
+	filter: alpha(opacity=100);
+	position: absolute;
+	z-index: 999;
+	background: #1b1b1b;
+	height: 0px;
+	overflow: hidden;
+	min-width: 180%;
+
+	-webkit-transition: opacity 0.4s ease-out;
+	-moz-transition: opacity 04s ease-out;
+	-o-transition: opacity 04s ease-out;
+	-ms-transition: opacity 04s ease-out;
+	transition: opacity 0.4s ease-out;
+
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.primary ul li:hover ul {
+	opacity: 0.98;
+	filter: alpha(opacity=100);
+	height: auto;
+	overflow: auto;
+}
+
+.primary ul ul li {
+	float: none;
+	display: block;
+	border-bottom: 1px solid #383737;
+}
+
+.primary ul ul li a {
+	display: block;
+	line-height: 35px;
+	text-transform: none;
+	white-space: nowrap;
+}
+
+.primary ul li:hover > a {
+	background: #424242;
+}
 
 /* Sections (izmeniti nazive klasa)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .info-section {
-  text-align: center; }
+  text-align: center; 
+}
+
 .section {
 padding: 8rem 0 7rem;
-text-align: center; }
+text-align: center; 
+}
+
 .section-heading,
 .section-description {
-margin-bottom: 1.2rem; }
+margin-bottom: 1.2rem; 
+}
