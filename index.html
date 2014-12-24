@@ -54,12 +54,12 @@
             <li><a href="#">Meni</a>
 
               <ul>
-                <li><a href="#">Akcije</a></li>
-                <li><a href="#">Kobasice</a></li>
-                <li><a href="#">Salate</a></li>
-                <li><a href="#">Sendviči</a></li>
-                <li><a href="#">Šejkovi</a></li>
-                <li><a href="#">Pića</a></li>
+                <li><a href="#"><span>- </span>Akcije</a></li>
+                <li><a href="#"><span>- </span>Kobasice</a></li>
+                <li><a href="#"><span>- </span>Salate</a></li>
+                <li><a href="#"><span>- </span>Sendviči</a></li>
+                <li><a href="#"><span>- </span>Šejkovi</a></li>
+                <li><a href="#"><span>- </span>Pića</a></li>
               </ul>
 
              </li>
@@ -83,38 +83,6 @@
       <img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
     </div>
   </div>
-  <!-- End SlidesJS Required: Start Slides -->
-
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 528,
-        navigation: {
-          effect: "fade"
-        },
-        pagination: {
-          effect: "fade"
-        },
-        effect: {
-          fade: {
-            speed: 400
-          }
-        }
-      });
-    });
-  </script>
-  <!-- End SlidesJS Required -->
-  
   
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -199,6 +167,64 @@
     </div><!--end container>-->
   </div>
 
+
+<!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+  <script type="js/tables.js"></script>
+
+  <!--Slide JS-->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+      });
+    });
+  </script>
+
+  <!--Dropdown nav-->
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      //build dropdown
+      $("<select />").appendTo(".primary");
+
+      // Create default option "Go to..."
+      $("<option/>", {
+        "selected" : "selected",
+        "value"    : "",
+        "text"     : "Navigacija..."
+      }).appendTo("nav select s");
+
+      // Populate dropdown with menu items
+      $("nav a").each(function() {
+        var el = $(this);
+        $("<option />", {
+          "value"   : el.attr("href"),
+          "text"    : el.text()
+        }).appendTo("nav select");
+      });
+
+      //link dropdown menu
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+
+    })
+  </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
