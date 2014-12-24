@@ -13,6 +13,6 @@ Kobaja grande oujea
 
 |Zadatak|Preuzeo|Zavrsen|Pregledan|
 |-------|-------|------|---------|
-|JQ slajder||||
+|JQ slajder|Amel|30%||
 |Footer|Milan|40%||
 
