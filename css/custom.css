@@ -22,7 +22,6 @@ header h1.logo a {
 	color: transparent; 
 }
 
-
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
@@ -136,7 +135,8 @@ nav {
 }
 
 
-/* Slajder */
+/* Slider
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 #slides {
       display: none
     }
@@ -149,17 +149,22 @@ nav {
 
 /* Sections (izmeniti nazive klasa)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.top-content {
+	padding: 8rem 0 7rem;
+	text-align: center;
+	background: #e18561;
+}
+
+.welcome-section {
+	margin: 36px 0 46px 0;
+}
+
 .info-section {
   text-align: center; 
 }
 
-.section {
-padding: 8rem 0 7rem;
-text-align: center; 
-}
-
-.section-heading,
-.section-description {
+.info-heading,
+.info-description {
 margin-bottom: 1.2rem; 
 }
 
