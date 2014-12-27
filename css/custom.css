@@ -163,19 +163,19 @@ nav {
 
 .slides-button {
     position: absolute;
-    top: 120px;
+    top: 40%;
     z-index: 100;
     display: none;
 }
 
 .lefty {
     position: absolute;
-    left:10px
+    left:5%
 }
 
 .righty {
     position: absolute;
-    right:10px
+    right:5%
 }
 
 
