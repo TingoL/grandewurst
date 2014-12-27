@@ -139,45 +139,30 @@ nav {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #slides {
   display: none;
-  margin-bottom: 10px;
-}
-
-#slides .slidesjs-container {
-  margin-bottom:10px;
-}
-
-#slides .slidesjs-previous {
-  margin-right: 5px;
-  float:left;
-}
-#slides .slidesjs-next {
-  margin-right: 5px;
-  float:right;
-}
-
-
-
-.slides {
-    position: relative;
+  position: relative;
 }
 
 .slides-button {
-    position: absolute;
-    top: 40%;
-    z-index: 100;
-    display: none;
+  position: absolute;
+  top: 40%;
+  z-index: 100;
+  display: none;
 }
 
-.lefty {
-    position: absolute;
-    left:5%
+#slides .slidesjs-previous {
+  float: left;
+  position: absolute;
+  left:5%
+}
+#slides .slidesjs-next {
+  float: right;
+  position: absolute;
+  right:5%
 }
 
-.righty {
-    position: absolute;
-    right:5%
-}
+#slides a:link, #slides a:visited { color: #333 }
 
+#slides a:hover, #slides a:active { color: #9e2020 }
 
 
 /* Sections (izmeniti nazive klasa)
