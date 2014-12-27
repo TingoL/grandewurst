@@ -140,6 +140,7 @@ nav {
 #slides {
   display: none;
   position: relative;
+  width: 100%;
 }
 
 .slides-button {
