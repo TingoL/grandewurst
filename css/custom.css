@@ -165,6 +165,7 @@ nav {
     position: absolute;
     top: 120px;
     z-index: 100;
+    display: none;
 }
 
 .lefty {
