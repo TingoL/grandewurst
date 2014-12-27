@@ -15,6 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
@@ -80,7 +81,10 @@
       <img src="images/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
       <img src="images/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
       <img src="images/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-      <img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+      <img src="images/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">   
+
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left fa-2x"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right fa-2x"></i></a>
     </div>
   </div>
   
@@ -109,6 +113,7 @@
           </div>
           <h5 class="value-heading">Minimalna porudžbina</h5>
           <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+          <i class="fa fa-camera-retro"></i>
         </div>
         
         <div class="one-third column value">
@@ -185,17 +190,13 @@
     $(function() {
       $('#slides').slidesjs({
         width: 940,
-        height: 528,
-        navigation: {
-          effect: "fade"
-        },
-        pagination: {
-          effect: "fade"
-        },
-        effect: {
-          fade: {
-            speed: 400
-          }
+        height: 350,
+        navigation: false,
+
+        play: {
+          effect: "fade",
+          interval: 4000,
+          auto: true
         }
       });
     });
@@ -231,7 +232,7 @@
 
     })
   </script>
-
+  <span class="fa fa-camera-retro"></span> fa-camera-retro
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
