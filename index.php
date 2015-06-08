@@ -4,6 +4,4 @@
 
 	render("content.php");
 
-
-
 ?>

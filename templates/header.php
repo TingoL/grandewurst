@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="public/fonts/font-awesome-4.2.0/css/font-awesome.min.css">
   <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
@@ -44,7 +44,14 @@
   <header>
     <div class="container">
       <div class="twelve columns">
-        <h1 class="logo"><a href="#">Grande Wurst</a></h1>
+        <div class="brand">
+        
+            <a href="./">
+              <span class="company-name"Grande Wurst></span>
+              <img class="logo" src="public/images/logo_kobaja.png"></span>
+            </a>
+          </h1>
+        </div>
       </div>
     </div><!--end container-->
   </header>
@@ -79,3 +86,34 @@
       </div>
     </div><!--end container-->
   </nav>
+
+  <!--Dropdown nav-->
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      //build dropdown
+      $("<select />").appendTo(".primary");
+
+      // Create default option "Go to..."
+      $("<option/>", {
+        "selected" : "selected",
+        "value"    : "",
+        "text"     : "Navigacija..."
+      }).appendTo("nav select s");
+
+      // Populate dropdown with menu items
+      $("nav a").each(function() {
+        var el = $(this);
+        $("<option />", {
+          "value"   : el.attr("href"),
+          "text"    : el.text()
+        }).appendTo("nav select");
+      });
+
+      //link dropdown menu
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+
+    })
+  </script>

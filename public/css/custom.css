@@ -1,25 +1,53 @@
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-  background: #2C8437;
-  padding: 4px 0; 
+    background: #006b43;
+    padding: 4px 0; 
 }
 
-header h1.logo {
-	margin: 0;
-	float: left; 
+.brand {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background: #006b43;
+    width: 216px;
+    padding: 12px 20px 4px;
+    z-index: 10000;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 4px 6px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 4px 6px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 4px 2px 6px rgba(0, 0, 0, 0.3);
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius:  2em;
 }
 
-header h1.logo a {
-	width: 264px;
-	height: 94px;
-	display: block;
-	background: url(../images/logo_txt.png) no-repeat 0 0;
-	
-	/* hide logo text*/
+.brand a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.company-name {
+    display: block;
+    width: 180px;
+    height: 75px;
+    margin: 0 auto;
+	background: url("../images/logo_txt.png") no-repeat 0 0;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent; 
+}
+
+.brand a .logo {
+    display: inline-block;
+    width: 56px;
+    height: 55px;
+    margin: 0 auto;
+   
 }
 
 /* Navigation
@@ -89,7 +117,7 @@ nav {
 	opacity: 0;
 	filter: alpha(opacity=100);
 	position: absolute;
-	z-index: 999;
+	z-index: 99;
 	background: #1b1b1b;
 	height: 0px;
 	overflow: hidden;
