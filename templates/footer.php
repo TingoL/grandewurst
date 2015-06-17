@@ -47,6 +47,39 @@
       <p>GRANDE WURST © 2014 All rights reserved</p>
     </div><!--end container>-->
   </div>
+
+
+   <!--Dropdown nav-->
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      //build dropdown
+      $("<select />").appendTo(".primary");
+
+      // Create default option "Go to..."
+      $("<option/>", {
+        "selected" : "selected",
+        "value"    : "",
+        "text"     : "Navigacija..."
+      }).appendTo("nav select s");
+
+      // Populate dropdown with menu items
+      $("nav a").each(function() {
+        var el = $(this);
+        $("<option />", {
+          "value"   : el.attr("href"),
+          "text"    : el.text()
+        }).appendTo("nav select");
+      });
+
+      //link dropdown menu
+      $("nav select").change(function() {
+        window.location = $(this).find("option:selected").val();
+      });
+
+    })
+  </script>
+  
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

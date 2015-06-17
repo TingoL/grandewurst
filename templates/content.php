@@ -9,6 +9,8 @@
       <a href="#" class="slidesjs-previous slidesjs-navigation slides-button"><span class="fa fa-chevron-left fa-4x"></span></a>
       <a href="#" class="slidesjs-next slidesjs-navigation slides-button"><span class="fa fa-chevron-right fa-4x"></span></a>
     </div>
+
+    
   
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -35,7 +37,6 @@
           </div>
           <h5 class="value-heading">Minimalna porudžbina</h5>
           <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-          <i class="fa fa-camera-retro"></i>
         </div>
         
         <div class="one-third column value">

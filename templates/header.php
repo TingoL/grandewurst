@@ -45,12 +45,10 @@
     <div class="container">
       <div class="twelve columns">
         <div class="brand">
-        
-            <a href="./">
-              <span class="company-name"Grande Wurst></span>
-              <img class="logo" src="public/images/logo_kobaja.png"></span>
-            </a>
-          </h1>
+          <a href="./">
+            <span class="company-name"Grande Wurst></span>
+            <img class="logo" src="public/images/logo_kobaja.png"></span>
+          </a>
         </div>
       </div>
     </div><!--end container-->
@@ -86,34 +84,3 @@
       </div>
     </div><!--end container-->
   </nav>
-
-  <!--Dropdown nav-->
-  <script type="text/javascript">
-    $(document).ready(function(){
-
-      //build dropdown
-      $("<select />").appendTo(".primary");
-
-      // Create default option "Go to..."
-      $("<option/>", {
-        "selected" : "selected",
-        "value"    : "",
-        "text"     : "Navigacija..."
-      }).appendTo("nav select s");
-
-      // Populate dropdown with menu items
-      $("nav a").each(function() {
-        var el = $(this);
-        $("<option />", {
-          "value"   : el.attr("href"),
-          "text"    : el.text()
-        }).appendTo("nav select");
-      });
-
-      //link dropdown menu
-      $("nav select").change(function() {
-        window.location = $(this).find("option:selected").val();
-      });
-
-    })
-  </script>
