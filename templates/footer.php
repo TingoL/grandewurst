@@ -79,8 +79,16 @@
 
     })
   </script>
+
+<script>
+  $(window).load(function() {
+    // When the page has loaded
+    $("body").css("visibility", "visible");
+  });
+</script>
   
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
