@@ -54,6 +54,8 @@ header {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
 	background: #343434;
+	background-image: url("../images/nav_texture.jpg");
+	height: 50px;
 }
 
 .primary {
@@ -169,7 +171,7 @@ nav {
   display: block;
   position: relative;
   width: 100%;
-  height: 550px;
+  height: 620px;
 }
 
 .slides-button {
@@ -199,9 +201,9 @@ nav {
 /* Sections (izmeniti nazive klasa)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .top-content {
-	padding: 8rem 0 7rem;
+	padding: 0.5rem 0 7rem;
 	text-align: center;
-	background: #e18561;
+	background: #f5c19a;
 }
 
 .welcome-section {
@@ -218,10 +220,13 @@ margin-bottom: 1.2rem;
 }
 
 
+
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
 	background: #343434;
+	background-image: url("../images/nav_texture.jpg");
 	padding: 68px 0 46px 0;
 	margin: 0;
 }
