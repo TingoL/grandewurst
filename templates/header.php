@@ -44,7 +44,7 @@
   <header>
     <div class="container">
       <div class="twelve columns">
-        <div class="brand">
+        <div id="brand">
           <a href="./">
             <span class="company-name"Grande Wurst></span>
             <img class="logo" src="public/images/logo_kobaja.png"></span>

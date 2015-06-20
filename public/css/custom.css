@@ -9,7 +9,7 @@ header {
   padding: 4px 0; 
 }
 
-.brand {
+#brand {
   position: absolute;
   top: -2px;
   left: 0;
@@ -28,7 +28,7 @@ header {
   border-bottom-left-radius:  2em;
 }
 
-.brand a {
+#brand a {
   display: block;
   text-decoration: none;
   text-align: center;    
@@ -45,7 +45,7 @@ header {
 	color: transparent; 
 }
 
-.brand a .logo {
+#brand a .logo {
   display: inline-block;
   width: 56px;
   height: 55px;
@@ -219,7 +219,7 @@ nav {
 	height: 35%;
 	position: absolute;
 	top: 20%;
-	left: 14%;
+	
 	margin: 0 auto;
 	z-index: 100;
 }

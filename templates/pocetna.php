@@ -1,71 +1,84 @@
-<!-- Slajder
+  <!-- Slajder
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <div id="slides">
+  <div id="slides">
 
-      <div class="slide">
-        <img src="public/images/example-slide-1.jpg">
-        <div class="inner-info">
-          <div class="info-wrap">
-            <span>
-              <p class="cena">100</p>
-              <p class="rsd">dinara</p>
-            </span>
-            <h1>Kobaja grande</h1>
-            <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-          </div>
+    <div class="slide">
+      <img src="public/images/example-slide-1.jpg">
+      <div class="inner-info">
+        <div class="info-wrap">
+          <span>
+            <p class="cena">100</p>
+            <p class="rsd">dinara</p>
+          </span>
+          <h1>Kobaja grande</h1>
+          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
         </div>
       </div>
+    </div>
 
-      <div class="slide">
-        <img src="public/images/example-slide-2.jpg">
-        <div class="inner-info">
-          <div class="info-wrap">
-            <span>
-              <p class="cena">100</p>
-              <p class="rsd">dinara</p>
-            </span>
-            <h1>Kobaja</h1>
-            <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-          </div>
+    <div class="slide">
+      <img src="public/images/example-slide-2.jpg">
+      <div class="inner-info">
+        <div class="info-wrap">
+          <span>
+            <p class="cena">100</p>
+            <p class="rsd">dinara</p>
+          </span>
+          <h1>Kobaja</h1>
+          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
         </div>
       </div>
+    </div>
 
-      <div class="slide">
-        <img src="public/images/example-slide-3.jpg">
-        <div class="inner-info">
-          <div class="info-wrap">
-            <span>
-              <p class="cena">100</p>
-              <p class="rsd">dinara</p>
-            </span>
-            <h1>Kobaja</h1>
-            <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-          </div>
+    <div class="slide">
+      <img src="public/images/example-slide-3.jpg">
+      <div class="inner-info">
+        <div class="info-wrap">
+          <span>
+            <p class="cena">100</p>
+            <p class="rsd">dinara</p>
+          </span>
+          <h1>Kobaja</h1>
+          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
         </div>
       </div>
+    </div>
 
-      <div class="slide">
-        <img src="public/images/example-slide-4.jpg"> 
-        <div class="inner-info">
-          <div class="info-wrap">
-            <span>
-              <p class="cena">100</p>
-              <p class="rsd">dinara</p>
-            </span>
-            <h1>Kobaja</h1>
-            <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-          </div>
+    <div class="slide">
+      <img src="public/images/example-slide-4.jpg"> 
+      <div class="inner-info">
+        <div class="info-wrap">
+          <span>
+            <p class="cena">100</p>
+            <p class="rsd">dinara</p>
+          </span>
+          <h1>Kobaja</h1>
+          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
         </div>
       </div>
+    </div>
 
       <a href="#" class="slidesjs-previous slidesjs-navigation slides-button"><span class="fa fa-chevron-left fa-4x"></span></a>
       <a href="#" class="slidesjs-next slidesjs-navigation slides-button"><span class="fa fa-chevron-right fa-4x"></span></a>
-    </div>
-
-
-
   
+  </div>
+
+
+  <!-- Set position of captions -->
+  <script type="text/javascript">
+  var Brand = document.getElementById("brand");
+  t = Brand.getBoundingClientRect();
+  Captions = document.getElementsByClassName("inner-info");
+
+  for(var i = 0, length = Captions.length; i < length; i++) {
+    Captions[i].style.left = t.left + "px";
+  }
+
+  </script>
+
+
+
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="top-content">
