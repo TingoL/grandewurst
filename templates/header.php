@@ -63,9 +63,10 @@
         <div class="primary">
           <ul>
 
-            <li><a href="#">Početna</a></li>
+            <li><a class="current" shref="../">Početna</a></li>
             <li><a href="#">Meni</a>
 
+              <!--
               <ul>
                 <li><a href="#"><span>- </span>Akcije</a></li>
                 <li><a href="#"><span>- </span>Kobasice</a></li>
@@ -74,6 +75,7 @@
                 <li><a href="#"><span>- </span>Šejkovi</a></li>
                 <li><a href="#"><span>- </span>Pića</a></li>
               </ul>
+              -->
 
              </li>
             <li><a href="#">Dostava</a></li>

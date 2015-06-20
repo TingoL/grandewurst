@@ -2,6 +2,6 @@
 	
 	require("includes/functions.php");
 
-	render("content.php");
+	render("pocetna.php");
 
 ?>

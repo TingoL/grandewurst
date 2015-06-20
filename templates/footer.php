@@ -7,7 +7,7 @@
         <div class="four columns">
           <div class="bottom-nav">
             <ul>
-              <li><a href="#">Početna</a></li>
+              <li><a href="index.php">Početna</a></li>
               <li><a href="#">Meni</a></li>
               <li><a href="#">Dostava</a></li>
               <li><a href="#">Kontakti</a></li>
