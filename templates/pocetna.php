@@ -65,20 +65,6 @@
   </div>
 
 
-  <!-- Set position of captions -->
-  <script type="text/javascript">
-  var Brand = document.getElementById("brand");
-  t = Brand.getBoundingClientRect();
-  Captions = document.getElementsByClassName("inner-info");
-
-  for(var i = 0, length = Captions.length; i < length; i++) {
-    Captions[i].style.left = t.left + "px";
-  }
-
-  </script>
-
-
-
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="top-content">
@@ -117,6 +103,16 @@
     </div><!--end container-->
   </div><!--end top-content-->
 
+  <!-- Set position of captions -->
+  <script type="text/javascript">
+  var Brand = document.getElementById("brand");
+  t = Brand.getBoundingClientRect();
+  Captions = document.getElementsByClassName("inner-info");
+
+  for(var i = 0, length = Captions.length; i < length; i++) {
+    Captions[i].style.left = t.left + "px";
+  }
+  </script>
 
   <!--Slide JS-->
   <script type="text/javascript">
@@ -135,6 +131,7 @@
       });
     });
   </script>
+
   <script>
     $('#slides').hover(function() {
             $('.slidesjs-navigation').fadeIn();
