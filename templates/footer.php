@@ -27,7 +27,7 @@
         </div>
 
         <div class="four columns">
-          <div class="social">
+          <div class="social-bott">
             <ul>
               <li><a class="fa fa-facebook fa-2x" href="#" ></a></li>
               <li><a class="fa fa-twitter fa-2x" href="#" ></a></li>

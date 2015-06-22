@@ -67,7 +67,7 @@
 
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="top-content">
+  <div id="content-top">
     <div class="container">
 
       <div class="welcome-section">
@@ -101,8 +101,45 @@
         </div>
       </div>
     </div><!--end container-->
-  </div><!--end top-content-->
+  </div><!--end content-top-->
 
+  <div id="content-bott">
+    <div class="container">
+      <div class="row">
+
+        <div class="food-img food-info">
+          <img class="three columns" src="public/images/wurst-schal.jpg"/>
+          <p class="food-about nine columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="food-img food-info">
+          <img class="three columns" src="public/images/wurst-schal.jpg"/>
+          <p class="food-about nine columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+        <div class="food-img food-info">
+          <img class="three columns" src="public/images/wurst-schal.jpg"/>
+          <p class="food about nine columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class-
   <!-- Set position of captions -->
   <script type="text/javascript">
   var Brand = document.getElementById("brand");

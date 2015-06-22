@@ -50,6 +50,9 @@
             <img class="logo" src="public/images/logo_kobaja.png"></span>
           </a>
         </div>
+        <div id="contact">
+          <h6>060 000-000 / 060 000-000</h6>
+        </div>
       </div>
     </div><!--end container-->
   </header>
@@ -58,31 +61,33 @@
   <!-- Navigation
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <nav>
-    <div class="container">
-      <div class="twelve columns">
-        <div class="primary">
-          <ul>
-
-            <li><a class="current" shref="../">Početna</a></li>
-            <li><a href="#">Meni</a>
-
-              <!--
+    <div class="nav-wrap">
+      <div class="container">
+        <div class="twelve columns">
+            <div class="primary">
               <ul>
-                <li><a href="#"><span>- </span>Akcije</a></li>
-                <li><a href="#"><span>- </span>Kobasice</a></li>
-                <li><a href="#"><span>- </span>Salate</a></li>
-                <li><a href="#"><span>- </span>Sendviči</a></li>
-                <li><a href="#"><span>- </span>Šejkovi</a></li>
-                <li><a href="#"><span>- </span>Pića</a></li>
+
+                <li><a class="current" shref="../">Početna</a></li>
+                <li><a href="#">Meni</a>
+
+                  <!--
+                  <ul>
+                    <li><a href="#"><span>- </span>Akcije</a></li>
+                    <li><a href="#"><span>- </span>Kobasice</a></li>
+                    <li><a href="#"><span>- </span>Salate</a></li>
+                    <li><a href="#"><span>- </span>Sendviči</a></li>
+                    <li><a href="#"><span>- </span>Šejkovi</a></li>
+                    <li><a href="#"><span>- </span>Pića</a></li>
+                  </ul>
+                  -->
+
+                 </li>
+                <li><a href="#">Dostava</a></li>
+                <li><a href="#">Kontakt</a></li>
+
               </ul>
-              -->
-
-             </li>
-            <li><a href="#">Dostava</a></li>
-            <li><a href="#">Kontakt</a></li>
-
-          </ul>
-        </div><!--end primary-->
-      </div>
-    </div><!--end container-->
+            </div><!--end primary-->
+        </div>
+      </div><!--end container-->
+    </div>
   </nav>
