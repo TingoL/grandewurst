@@ -51,7 +51,12 @@
           </a>
         </div>
         <div id="contact">
-          <h6>060 000-000 / 060 000-000</h6>
+          <span class="social-head">
+            <a class="fa fa-facebook" href="#" ></a>
+            <a class="fa fa-twitter" href="#" ></a>
+            <a class="fa fa-google-plus" href="#" ></a>
+          </span>
+          <span class="tel">060 000-000 / 060 000-000</span>
         </div>
       </div>
     </div><!--end container-->
