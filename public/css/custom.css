@@ -215,10 +215,6 @@ nav {
   display: block;
 }
 
-.slide {
-
-}
-
 #slides img {
 	max-width: 100%;
 	max-height: auto;
@@ -250,24 +246,53 @@ nav {
 
 /* Inner info
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.slide {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+}
 .inner-info {
-	width: 45%;
+	width: 100%;
 	height: 35%;
 	position: absolute;
-	top: 25%;
-	
+	background-color: rgba(244, 237, 233, 0.7);
+	bottom: 0px;
 	margin: 0 auto;
+	padding-bottom: 0px;
 	z-index: 100;
+	text-align: center;
+	padding-bottom: 10px;
+  -webkit-animation: fadeinout 7s ease both;
+  -moz-animation: fadeinout 7s ease both;
+  -o-animation: fadeinout 7s ease both;
+  animation: fadeinout 7s ease both;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  40%, 80% { opacity: 1; }
+}
+
+@-moz-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  40%, 80% { opacity: 1; }
+}
+
+@-o-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  40%, 80% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  40%, 80% { opacity: 1; }
 }
 
 .info-wrap {
 	width: 100%;
-	height: 90%;
-	background-color: rgba(244, 237, 233, 0.7);
 	position: relative;
-	padding-left: 5%;
-	padding-right: 10px;
-	padding-top: 4%;
+	padding-top: 20px;
 }
 
 .slide span {
@@ -277,8 +302,10 @@ nav {
 .rsd, .cena {
 	display: inline;
   line-height: 0.7em;
-  color: #914f1f;
+  color: #7c3b00;
+  text-shadow: 1px 2px 0px #f47b29;
 }
+
 .rsd {
 	font-size: 30px;
 	display: inline;
@@ -290,17 +317,18 @@ nav {
 }
 
 .slide h1 {
-	color: #f58634;
+	color: #f47b29;
 	font-size: 80px;
+	text-shadow: 1px 2px 0px #7c3b00;
 	font-weight: bold;
+	display: inline;
 }
 
 .info-wrap > p {
-	position: absolute;
 	font-size: 25px;
 	line-height: 1em;
-	bottom: 1%;
-	margin-right: 20px;
+	padding-top: 20px;
+	color: #404040;
 	
 }
 
