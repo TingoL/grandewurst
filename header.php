@@ -71,9 +71,9 @@
         <div class="twelve columns">
             <div class="primary">
               <ul>
-
-                <li><a class="current" shref="../">Početna</a></li>
-                <li><a href="#">Meni</a>
+                
+                <li <?php if($current == 'pocetna') {echo 'class="current"';} ?>><a class="menu-link" href=".">Početna</a></li>
+                <li <?php if($current == 'meni') {echo 'class="current"';} ?>><a class="menu-link" href="meni.php">Meni</a>
 
                   <!--
                   <ul>
@@ -87,8 +87,8 @@
                   -->
 
                  </li>
-                <li><a href="#">Dostava</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="menu-link" href="dostava.php">Dostava</a></li>
+                <li <?php if($current == 'kontakt') {echo 'class="current"';} ?>><a class="menu-link" href="kontakt.php">Kontakt</a></li>
 
               </ul>
             </div><!--end primary-->

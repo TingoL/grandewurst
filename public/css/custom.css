@@ -135,9 +135,9 @@ nav {
 	position: relative;
 }
 
-.primary ul li a {
+.menu-link{
 	display: inline-block;
-	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 49px;
 	padding: 0 14px;
@@ -150,10 +150,6 @@ nav {
 
 .primary ul li a:hover {
 	cursor: pointer;
-}
-
-.primary ul li a.current {
-	color: #f58634;
 }
 
 /*sub menu*/
@@ -205,6 +201,11 @@ nav {
 }
 
 .primary ul li:hover > a {
+	color: #f58634;
+}
+
+
+.current a {
 	color: #f58634;
 }
 
