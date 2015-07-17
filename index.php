@@ -1,7 +1,6 @@
   <?php 
     $current = 'pocetna';
     require("header.php");
-    
    ?>  
   
   <!-- Slajder
