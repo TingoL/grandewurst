@@ -124,7 +124,7 @@
         </div>
 
         <div class="food-info">
-          <img class="three columns food-img" src="public/images/wurst-schal.jpg"/>
+          <img class="three columns food-img" src="public/images/nindza.jpg"/>
           <p class="food-about eight columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -133,7 +133,7 @@
         </div>
 
         <div class="food-info">
-          <img class="three columns food-img" src="public/images/wurst-schal.jpg"/>
+          <img class="three columns food-img" src="public/images/Erich1.jpg"/>
           <p class="food-about eight columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.

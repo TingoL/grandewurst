@@ -72,8 +72,8 @@
             <div class="primary">
               <ul>
                 
-                <li <?php if($current == 'pocetna') {echo 'class="current"';} ?>><a class="menu-link" href=".">Početna</a></li>
-                <li <?php if($current == 'meni') {echo 'class="current"';} ?>><a class="menu-link" href="meni.php">Meni</a>
+                <li <?php if($current == 'pocetna') {echo 'class="current"';} ?>><a class="nav-link" href=".">Početna</a></li>
+                <li <?php if($current == 'meni') {echo 'class="current"';} ?>><a class="nav-link" href="meni.php">Meni</a>
 
                   <!--
                   <ul>
@@ -87,8 +87,8 @@
                   -->
 
                  </li>
-                <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="menu-link" href="dostava.php">Dostava</a></li>
-                <li <?php if($current == 'kontakt') {echo 'class="current"';} ?>><a class="menu-link" href="kontakt.php">Kontakt</a></li>
+                <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="nav-link" href="dostava.php">Dostava</a></li>
+                <li <?php if($current == 'kontakt') {echo 'class="current"';} ?>><a class="nav-link" href="kontakt.php">Kontakt</a></li>
 
               </ul>
             </div><!--end primary-->

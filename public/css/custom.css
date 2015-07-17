@@ -135,7 +135,7 @@ nav {
 	position: relative;
 }
 
-.menu-link{
+.nav-link{
 	display: inline-block;
 	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -434,7 +434,45 @@ footer ul li a {
 -------------------------------------------------- */
 
 .vertical-align {
-	position:relative;
+  position:relative;
   top:50%;
   transform:translateY(-50%);
 }
+
+
+/* Dostava
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.dostava-wrapper {
+	overflow: auto;
+	background: red;
+	background-color: rgb(244, 237, 233);
+}
+
+#dostava {
+	margin-top: 6rem;
+}
+
+.dostava-naslov {
+	
+	margin-top: 12rem;
+	
+}
+
+.lokacija {
+	margin-bottom: 10rem;
+}
+
+.lokacija img {
+  width: 100%;
+}
+
+.lokacija-info {
+	margin-top: 2rem;
+}
+
+/*
+-------------------------------------------------- */
+
+
+
