@@ -117,7 +117,7 @@
         <div class="row">
           <div class="one-third column value">
             <div class="info-section">
-              <img class="info-kruzici" src="public/images/aus-flag.png" />
+              <img class="info-kruzici" src="public/images/icon1.png" />
             </div>
             <h5 class="value-heading">Austrijske kobaje</h5>
             <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
@@ -125,7 +125,7 @@
           
           <div class="one-third column value">
             <div class="info-section">
-              <img class="info-kruzici" src="public/images/porudzbina.png" />
+              <img class="info-kruzici" src="public/images/icon2.png" />
             </div>
             <h5 class="value-heading">Minimalna porudžbina</h5>
             <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
@@ -133,7 +133,7 @@
           
           <div class="one-third column value">
             <div class="info-section">
-              <img class="info-kruzici" src="public/images/snaga.png" />
+              <img class="info-kruzici" src="public/images/icon3.png" />
             </div>
             <h5 class="value-heading">Puno proteina</h5>
             <p class="value-description">Percentage of users that are frustrated with page load times.</p>
