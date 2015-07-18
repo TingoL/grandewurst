@@ -49,7 +49,7 @@
   </div>
 
   
-  <!--Dropdown nav
+  <!--Dropdown nav -->
   <script type="text/javascript">
     $(document).ready(function(){
 
@@ -79,7 +79,7 @@
 
     })
   </script>
-  -->
+
 
 <script>
   $(window).load(function() {

@@ -11,58 +11,90 @@
     <div class="slide">
       <img src="public/images/example-slide-1.jpg">
       <div class="inner-info">
+        <div class="container">
+
         <div class="info-wrap">
-          <span>
-            <p class="cena">100</p>
-            <p class="rsd">dinara</p>
-          </span>
-          <h1>Kobaja grande</h1>
-          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-        </div>
-      </div>
-    </div>
+          <div class="cena-wrap">
+              <p class="cena">100</p>
+              <p class="rsd">rsd</p>
+          </div>
+          <h1 class="artikal">
+            Austrijska kobasica
+          </h1>  
+          <p class="opis">
+            Iznutrice, zubi, oči, mast, mlevene kosti
+          </p>
+        </div><!-- end info-wrap -->
+
+      </div><!-- end container -->
+    </div><!-- end inner-info -->
+  </div><!-- end slide -->
 
     <div class="slide">
       <img src="public/images/example-slide-2.jpg">
       <div class="inner-info">
+        <div class="container">
+
         <div class="info-wrap">
-          <span>
-            <p class="cena">100</p>
-            <p class="rsd">dinara</p>
-          </span>
-          <h1>Kobaja</h1>
-          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-        </div>
-      </div>
-    </div>
+          <div class="cena-wrap">
+              <p class="cena">100</p>
+              <p class="rsd">rsd</p>
+          </div>
+          <h1 class="artikal">
+            Austrijska kobasica
+          </h1>  
+          <p class="opis">
+            Iznutrice, zubi, oči, mast, mlevene kosti
+          </p>
+        </div><!-- end info-wrap -->
+
+      </div><!-- end container -->
+    </div><!-- end inner-info -->
+  </div><!-- end slide -->
 
     <div class="slide">
       <img src="public/images/example-slide-3.jpg">
       <div class="inner-info">
+        <div class="container">
+
         <div class="info-wrap">
-          <span>
-            <p class="cena">100</p>
-            <p class="rsd">dinara</p>
-          </span>
-          <h1>Kobaja</h1>
-          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-        </div>
-      </div>
-    </div>
+          <div class="cena-wrap">
+              <p class="cena">100</p>
+              <p class="rsd">rsd</p>
+          </div>
+          <h1 class="artikal">
+            Austrijska kobasica
+          </h1>  
+          <p class="opis">
+            Iznutrice, zubi, oči, mast, mlevene kosti
+          </p>
+        </div><!-- end info-wrap -->
+
+      </div><!-- end container -->
+    </div><!-- end inner-info -->
+  </div><!-- end slide -->
 
     <div class="slide">
       <img src="public/images/example-slide-4.jpg"> 
       <div class="inner-info">
+        <div class="container">
+
         <div class="info-wrap">
-          <span>
-            <p class="cena">100</p>
-            <p class="rsd">dinara</p>
-          </span>
-          <h1>Kobaja</h1>
-          <p>Ljuta austrijska Kobaja, probajte ovo ludilo ovo brale nije normalno svega mi</p>
-        </div>
-      </div>
-    </div>
+          <div class="cena-wrap">
+              <p class="cena">100</p>
+              <p class="rsd">rsd</p>
+          </div>
+          <h1 class="artikal">
+            Austrijska kobasica
+          </h1>  
+          <p class="opis">
+            Iznutrice, zubi, oči, mast, mlevene kosti
+          </p>
+        </div><!-- end info-wrap -->
+
+      </div><!-- end container -->
+    </div><!-- end inner-info -->
+  </div><!-- end slide -->
 
       <a href="#" class="slidesjs-previous slidesjs-navigation slides-button"><span class="fa fa-chevron-left fa-4x"></span></a>
       <a href="#" class="slidesjs-next slidesjs-navigation slides-button"><span class="fa fa-chevron-right fa-4x"></span></a>
