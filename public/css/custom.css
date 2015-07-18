@@ -1,5 +1,6 @@
 body {
 	visibility: hidden;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Header
@@ -137,7 +138,7 @@ nav {
 
 .nav-link{
 	display: inline-block;
-	font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	line-height: 49px;
 	padding: 0 14px;
@@ -321,7 +322,7 @@ nav {
 }
 
 .opis {
-	  font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif;
   color: #7c3b00;
   font-size: 21px;
   font-weight: bold;
@@ -341,7 +342,6 @@ nav {
 
 .top-segment {
 	text-align: center;
-	font-family: 'Helvetica', 'Arial', sans-serif;
 	color: #FFB884;
 }
 
@@ -361,7 +361,7 @@ nav {
 #content-bott {
 	padding-top: 1em;
 	background-color: rgb(244, 237, 233);
-	height: 750px;
+  overflow: auto;
 }
 
 .food-info {
@@ -380,17 +380,35 @@ nav {
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer {
+.footer-wrapper {
+	padding-top: 4px;
 	background: #343434;
 	background-image: url("../images/nav_texture.jpg");
+}
+
+footer {
 	padding: 68px 0 46px 0;
 	margin: 0;
+	border-top: 1px solid #4d4843;
+}
+
+footer ul {
+	margin-top: 50px;
+	margin-bottom: 60px;
 }
 
 footer ul li {
 	line-height: 16px;
 	display: block;
 	list-style: none;
+	font-size: 14px;
+}
+
+footer ul li:first-child {
+	color: #ebebeb;
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 46px;
 }
 
 footer ul li a {
@@ -398,16 +416,26 @@ footer ul li a {
 	padding: 0;
 	margin: 0;
 	line-height: 0;
+	color: #ebebeb;
+}
+
+footer ul li:hover > a {
+	color: #f58634;
 }
 
 .social-bott ul {
 	float: right;
-	margin-top: 20px;
+	margin-top: 100px;
 }
 
 .social-bott ul li{
 	display: inline-block;
 	padding: 5px;
+	margin-right: 10px;
+}
+
+.address {
+	color: #ebebeb;
 }
 
 
@@ -415,12 +443,12 @@ footer ul li a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bottom-copyr {
 	background: #006b43;
-	text-align: center;
+	text-align: left;
 }
 
 .bottom-copyr p {
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	margin: 0;
 	color: white;
 }
