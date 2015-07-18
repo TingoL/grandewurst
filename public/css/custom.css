@@ -84,8 +84,8 @@ header {
 /* Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav {
-	background: #343434;
-	background-image: url("../images/nav_texture.jpg");
+	background: #2a2a2a;
+	
 	padding-bottom: 4px;
 }
 
@@ -295,8 +295,8 @@ nav {
 
 .cena-wrap {
 	display: block;
-  text-shadow: 2px 2px 0px #f47b29;
-  color: #7c3b00;
+  text-shadow: 2px 2px 0px #7c3b00;
+  color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-size: 106px;
   font-weight: 900;
@@ -323,7 +323,7 @@ nav {
 
 .opis {
 	font-family: 'Lato', sans-serif;
-  color: #7c3b00;
+  color: #ffffff;
   font-size: 21px;
   font-weight: bold;
   font-style: italic;
@@ -334,19 +334,43 @@ nav {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #content-top {
 	/*padding: 0.5rem 0 7rem;*/
-	background-color: #f2f0f0;
-	background-image: url("../images/dsc_mini.jpg");
-	background-size: cover;
-	height: 750px;
+	background-color: #fff6f0;
 }
 
 .top-segment {
 	text-align: center;
 	color: #FFB884;
+	padding-bottom: 51px;
 }
 
-.welcome-section {
-	/*margin: 36px 0 46px 0;*/
+.welcome-section h3, .welcome-section h6{
+
+	color: #006b43;
+	font-family: "Lato", sans-serif;
+	letter-spacing: 0.05rem;
+}
+
+.welcome-section h3 {
+	font-size: 43px;
+	font-weight: 900;
+	line-height: 50px;
+	padding-top: 51px;
+}
+
+.welcome-section h6 {
+	font-size: 21px;
+	font-style: italic;
+	line-height: 30px;
+	padding-top: 14px;
+	padding-bottom: 51px;
+}
+
+.border {
+	content: "";
+	border-bottom: 2px solid #006b43;
+	margin: -20px auto 0;
+  width: 240px;
+  margin-top: -15px;
 }
 
 .info-section {
@@ -358,9 +382,32 @@ nav {
   /*margin-bottom: 1.2rem;*/ 
 }
 
+.value-heading {
+	color: #d15f27;
+	line-height: 30px;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 22px;
+}
+
+.value-description {
+ 	color: #2a2a2a; 
+ 	line-height: 22px;
+ 	font-size: 16px;
+}
+
+.info-kruzici {
+	width: 150px;
+	height: 150px;
+
+}
+
 #content-bott {
 	padding-top: 1em;
-	background-color: rgb(244, 237, 233);
+	background-color: #f2f0f0;
+	background-image: url("../images/dsc_mini.jpg");
+	background-size: cover;
   overflow: auto;
 }
 
@@ -382,8 +429,8 @@ nav {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .footer-wrapper {
 	padding-top: 4px;
-	background: #343434;
-	background-image: url("../images/nav_texture.jpg");
+	background: #2a2a2a;
+	
 }
 
 footer {

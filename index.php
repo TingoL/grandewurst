@@ -105,12 +105,13 @@
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="content-top">
-    <div class="top-segment vertical-align">
+    <div class="top-segment">
       <div class="container">
 
         <div class="welcome-section">
-          <h2>Novo u vašem komšiluku!</h2>
-          <p>Fast food Grande Wurst vam na vrata donosi najbolje austrijske proizvode od kobasica!</p>
+          <h3>Novo u vašem komšiluku!</h3>
+          <p class="border"></p>
+          <h6>Fast food Grande Wurst vam donosi na vrata najbolje austrijske kobasice!</h6>
         </div>
 
         <div class="row">
@@ -136,6 +137,7 @@
             </div>
             <h5 class="value-heading">Puno proteina</h5>
             <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+
           </div>
         </div>
       </div><!--end container-->
