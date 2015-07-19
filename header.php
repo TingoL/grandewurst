@@ -51,14 +51,6 @@
             <img class="logo" src="public/images/logo_kobaja.png"></span>
           </a>
         </div>
-        <div id="contact">
-          <span class="social-head">
-            <a class="fa fa-facebook" href="#" ></a>
-            <a class="fa fa-twitter" href="#" ></a>
-            <a class="fa fa-google-plus" href="#" ></a>
-          </span>
-          <span class="tel">060 000-000 / 060 000-000</span>
-        </div>
       </div>
     </div><!--end container-->
   </header>
