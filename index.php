@@ -146,34 +146,39 @@
 
   <div id="content-bott">
     <div class="container">
+
+
+        <div class="welcome-section">
+          <h3>Šta naručiti?</h3>
+          <p class="border"></p>
+          <h6>Širok asortiman ovoga, a bogami i onoga!</h6>
+        </div>
+
       <div class="row">
-
-        <div class="food-info">
-          <img class="three columns food-img" src="public/images/wurst-schal.jpg"/>
-          <p class="food-about eight columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <div class="food-info four columns">
+          <img class="food-img" src="public/images/nindza.jpg"/>
+          <h3>Kobasice</h3>
+          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
 
-        <div class="food-info">
-          <img class="three columns food-img" src="public/images/nindza.jpg"/>
-          <p class="food-about eight columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <div class="food-info four columns">
+          <img class="food-img" src="public/images/nindza.jpg"/>
+          <h3>Salate</h3>
+          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
 
-        <div class="food-info">
-          <img class="three columns food-img" src="public/images/Erich1.jpg"/>
-          <p class="food-about eight columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <div class="food-info four columns">
+          <img class="food-img" src="public/images/nindza.jpg"/>
+          <h3>Sendvici</h3>
+          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
+      </div> 
 
       </div>
     </div>
