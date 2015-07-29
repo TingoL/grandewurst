@@ -104,6 +104,7 @@ nav {
 .primary ul {
 	height: 38px;
 	margin-top: 5px;
+	margin-right: 40px;
 }
 
 .primary ul li {
@@ -184,6 +185,25 @@ nav {
 
 .current a {
 	color: #f58634;
+}
+
+.nav-phone {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 3px;
+	width: 180px;
+	height: 56px;
+	background: #aa140a;
+	z-index: 100;
+	text-align: center;
+}
+
+.nav-phone h3 {
+	color: #FFF6F0;
+	font-size: 20px;
+	margin: 0;
 }
 
 /* Slider

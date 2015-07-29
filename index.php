@@ -7,7 +7,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div id="slides">
-
     <div class="slide">
       <img src="public/images/example-slide-1.jpg">
       <div class="inner-info">
