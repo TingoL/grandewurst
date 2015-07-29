@@ -28,9 +28,11 @@
   <!-- JS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwhAzVFdubXaDjE3rVRs-cEcOOhjgFMsI"></script>
   <script src="public/js/jquery.slides.min.js"></script>
   <script type="public/js/tables.js"></script>
   <script src="public/js/scripts.js"></script>
+  <script src="public/js/gmaps.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -81,7 +83,7 @@
 
                  </li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="nav-link" href="dostava.php">Dostava</a></li>
-                <li <?php if($current == 'kontakt') {echo 'class="current"';} ?>><a class="nav-link" href="kontakt.php">Kontakt</a></li>
+                <li <?php if($current == 'o nama') {echo 'class="current"';} ?>><a class="nav-link" href="onama.php">O nama</a></li>
 
               </ul>
             </div><!--end primary-->

@@ -2,6 +2,12 @@
     $current = 'dostava';
     require("header.php");
    ?>
+
+  <!-- Google Maps API -->
+
+
+  
+
   <div class="dostava-wrapper">
 	  <div class="container">
 	    <div class="row">
@@ -10,11 +16,10 @@
 	        <h2>Lorem ipsum dolor sit amet, consectetur!</h2>
         </div>
 
-
 			    <div id="dostava">
 
 			      <div class="lokacija six columns">
-			        <img src="public/images/gmaps.png" />
+			        <div id="map-canvas-first"></div>
 			        <div class="lokacija-info">
 				        <h3>Lokacija 2</h3>
 				        <p>
@@ -25,7 +30,7 @@
 			      </div><!-- end lokacija -->
 
 			      <div class="lokacija six columns">
-			        <img src="public/images/gmaps.png" />
+			        <div id="map-canvas-second"></div>
 			        <div class="lokacija-info">
 				        <h3>Lokacija 2</h3>
 				        <p>
@@ -34,8 +39,6 @@
 				        </p>
 			        </div><!-- end lokacija-info -->
 			      </div><!-- end lokacija -->
-			       
-
 
 			    </div><!-- end dostava -->
 	    </div>

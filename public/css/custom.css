@@ -1,3 +1,9 @@
+html, body { 
+	height: 100%;
+	margin: 0; 
+	padding: 0;
+}
+
 body {
 	visibility: hidden;
 	font-family: 'Open Sans', sans-serif;
@@ -398,8 +404,8 @@ nav {
 }
 
 .food-img {
-	width: 100px;
-	height: 100px;
+	width: 250px;
+	height: 200px;
 	margin-bottom: 20px;
 }
 
@@ -430,7 +436,7 @@ nav {
 }
 
 footer {
-	padding: 68px 0 46px 0;
+	padding: 24px 0 46px 0;
 	margin: 0;
 	border-top: 1px solid #4d4843;
 }
@@ -511,11 +517,12 @@ footer ul li:hover > a {
 
 .dostava-wrapper {
 	overflow: auto;
-	background-color: rgb(244, 237, 233);
+	background-color: #fff6f0;
 }
 
 #dostava {
 	margin-top: 6rem;
+	width: 100%;
 }
 
 .dostava-naslov {
@@ -526,10 +533,19 @@ footer ul li:hover > a {
 
 .lokacija {
 	margin-bottom: 10rem;
+	width: 100%;
 }
 
 .lokacija img {
   width: 100%;
+}
+
+#map-canvas-first, #map-canvas-second { 
+	display: block;
+	height: 350px; 
+	width: 100%;
+	margin: 0; 
+	padding: 0;
 }
 
 .lokacija-info {

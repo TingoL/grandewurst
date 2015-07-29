@@ -13,7 +13,7 @@
                 <li <?php if($current == 'pocetna') {echo 'class="current"';} ?>><a href=".">Početna</a></li>
                 <li <?php if($current == 'meni') {echo 'class="current"';} ?>><a href="meni.php">Meni</a></li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a href="dostava.php">Dostava</a></li>
-                <li <?php if($current == 'kontakt') {echo 'class="current"';} ?>><a href="kontakt.php">Kontakt</a></li>
+                <li <?php if($current == 'onama') {echo 'class="current"';} ?>><a href="onama.php">O nama</a></li>
               </ul>
             </div>
           </div>
