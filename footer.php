@@ -33,9 +33,9 @@
           <div class="four columns">
             <div class="social-bott">
               <ul>
-                <li><a class="fa fa-facebook fa-2x" href="#" ></a></li>
-                <li><a class="fa fa-twitter fa-2x" href="#" ></a></li>
-                <li><a class="fa fa-google-plus fa-2x" href="#" ></a></li>
+                <li><a class="facebookBtn soc-kruzic" href="#" ></a></li>
+                <li><a class="twitterBtn soc-kruzic" href="#" ></a></li>
+                <li><a class="googleplusBtn soc-kruzic" href="#" ></a></li>
               </ul>
             </div><!-- end social -->
           </div>
