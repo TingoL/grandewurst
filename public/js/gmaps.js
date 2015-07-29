@@ -15,11 +15,13 @@ function initialize() {
     var map2 = new google.maps.Map(document.getElementById('map-canvas-second'), mapOptionsSecond);
 
     var marker1 = new google.maps.Marker({
-    position: latlngFirst,
+        position: latlngFirst,
+        icon: "public/images/marker.png"
     });
 
     var marker2 = new google.maps.Marker({
-    position: latlngSecond,
+        position: latlngSecond,
+        icon: "public/images/marker.png"
     });
 
     marker1.setMap(map1);
