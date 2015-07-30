@@ -18,7 +18,7 @@
               <p class="rsd">rsd</p>
           </div>
           <h1 class="artikal">
-            Austrijska kobasica
+            Austrijska kobasica 1
           </h1>  
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
@@ -40,7 +40,7 @@
               <p class="rsd">rsd</p>
           </div>
           <h1 class="artikal">
-            Austrijska kobasica
+            Austrijska kobasica 2
           </h1>  
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
@@ -62,7 +62,7 @@
               <p class="rsd">rsd</p>
           </div>
           <h1 class="artikal">
-            Austrijska kobasica
+            Austrijska kobasica 3
           </h1>  
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
@@ -84,7 +84,7 @@
               <p class="rsd">rsd</p>
           </div>
           <h1 class="artikal">
-            Austrijska kobasica
+            Austrijska kobasica 4
           </h1>  
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
