@@ -88,7 +88,7 @@
 
                  </li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="nav-link" href="dostava.php">Dostava</a></li>
-                <li <?php if($current == 'o nama') {echo 'class="current"';} ?>><a class="nav-link" href="onama.php">O nama</a></li>
+                <li <?php if($current == 'onama') {echo 'class="current"';} ?>><a class="nav-link" href="onama.php">O nama</a></li>
 
               </ul>
             </div><!--end primary-->

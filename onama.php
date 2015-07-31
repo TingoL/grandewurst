@@ -1,5 +1,5 @@
   <?php 
-    $current = 'kontakt';
+    $current = 'onama';
     require("header.php");
    ?>  
 
