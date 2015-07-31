@@ -699,7 +699,7 @@ nav {
 }
 
 footer {
-	padding: 24px 0 46px 0;
+	padding: 24px 0 10px 0;
 	margin: 0;
 	border-top: 1px solid #4d4843;
 }
@@ -707,6 +707,7 @@ footer {
 footer ul {
 	margin-top: 50px;
 	margin-bottom: 60px;
+  float: left;
 }
 
 footer ul li {
@@ -735,9 +736,10 @@ footer ul li:hover > a {
 	color: #f58634;
 }
 
+
 .social-bott ul {
-	float: right;
 	margin-top: 100px;
+  width: 220px;
 }
 
 .social-bott ul li{
@@ -798,15 +800,46 @@ footer ul li:hover > a {
       color: #D15F27;
       background: #fff;
 }
+
+/*Footer media query*/
+@media all and (max-width: 768px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  
+  footer {
+    padding: 10px 0 40px 0;
+  }
+  footer ul {
+    margin-top: 36px;
+    margin-bottom: 0px;
+  }
+  footer ul li:first-child {
+    margin-bottom: 0px;
+  }
+  footer ul li:first-child h5 {
+    font-size: 20px;
+  }
+  .social-bott ul {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .contactItem {
+    display: block;
+  }
+  .soc-kruzic {
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+  }
+}
+
 /* Bottom
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bottom-copyr {
-	background: #006b43;
-	text-align: left;
+  background: #006b43;
+  text-align: left;
 }
 
 .bottom-copyr p {
-	padding-top: 5px;
+  padding-top: 5px;
 	padding-bottom: 5px;
 	margin: 0;
 	color: white;
