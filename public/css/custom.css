@@ -667,15 +667,18 @@ nav {
 }
 
 .food-img {
-	width: 250px;
+	width: 200px;
 	height: 200px;
 	margin-bottom: 20px;
+  border-radius: 50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
 }
 
 .food-info h3 {
 	font-family: "Lato", sans-serif;
 	text-transform: uppercase;
-	color: #fff6f0;
+	color: #f08332;
 	font-size: 27px;
 	line-height: 30px;
   margin-bottom: 15px;

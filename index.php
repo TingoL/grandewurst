@@ -154,25 +154,25 @@
         </div>
 
       <div class="row">
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
+        <div class="food-info one-third column">
+          <img class="food-img" src="public/images/kobaja.jpg"/>
           <h3>Kobasice</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
+        <div class="food-info one-third column">
+          <img class="food-img" src="public/images/salata.jpg"/>
           <h3>Salate</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
-          <h3>Sendvici</h3>
+        <div class="food-info one-third column">
+          <img class="food-img" src="public/images/sendvic.jpg"/>
+          <h3>Sendviči</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
