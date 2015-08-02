@@ -642,7 +642,7 @@ nav {
 
 }
 
-#content-bott {
+#content-midd {
 	padding-top: 1em;
 	background-color: #f2f0f0;
 	background-image: url("../images/dsc_mini.jpg");
@@ -652,12 +652,12 @@ nav {
   color: white;
 }
 
-#content-bott .welcome-section h3,
-#content-bott .welcome-section h6{
+#content-midd .welcome-section h3,
+#content-midd .welcome-section h6{
 	color: #fff6f0;
 }
 
-#content-bott .welcome-section p {
+#content-midd .welcome-section p {
 	border-bottom-color: #fff6f0;
 }
 .food-info {
@@ -667,8 +667,7 @@ nav {
 }
 
 .food-img {
-	width: 200px;
-	height: 200px;
+  padding: 10%;
 	margin-bottom: 20px;
   border-radius: 50%;
   -moz-border-radius:50%;
@@ -691,6 +690,25 @@ nav {
 .food-about {
 	padding-top: 20px;
 
+}
+
+#content-bott {
+  background-color: #fff6f0;
+  padding: 51px 0 51px;
+}
+
+#content-bott h3 {
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 50px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  color: #F58634;
+  margin-bottom: 42px;
+}
+
+#content-bott p {
+  margin-right: 20px;
 }
 
 /* Footer
