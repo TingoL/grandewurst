@@ -907,63 +907,72 @@ footer ul li:hover > a {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .dostava-wrapper {
-	overflow: auto;
-	background-color: #fff6f0;
+  overflow: auto;
+  background-color: #fff6f0;
 }
 
 #dostava {
-	margin-top: 6rem;
-	width: 100%;
+  margin-top: 6rem;
+  width: 100%;
 }
 
 .dostava-naslov {
-	margin-top: 12rem;
+  margin: 200px 0 50px;
+  text-align: center;
+  color: #006B43;
+}
+
+.dostava-description {
+  padding: 84px 0 54px 0;
+  text-align: center;
+	font-size: 24px;
+  line-height: 30px;
+	margin: 64px 0 84px 0;
+  background-image: url("../images/gw2.jpg");
+  background-size: cover;
+  color: #ffffff;
 }
 
 #map-canvas-first, #map-canvas-second { 
-	display: block;
-	height: 350px; 
-	width: 100%;
-	margin: 0; 
-	padding: 0;
+  display: block;
+  height: 350px; 
+  width: 100%;
+  margin: 0; 
+  padding: 0;
 }
 
 .lokacija1, .lokacija2 {
-	margin-bottom: 64px;
-	width: 100%;
-	
-	-webkit-box-sizing: border-box;
+  margin-bottom: 64px;
+  width: 100%;
+  
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
-	-moz-box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
   border-bottom-right-radius: 2em;
   border-bottom-left-radius:  2em;
 }
 
 .lokacija1 {
-	background: #006b43;
+  background: #006b43;
 }
 
 .lokacija2 {
-	background: #f58634;
+  background: #f58634;
 }
 
 .lokacija-info {
-	color: #fff6f0;
-	margin-top: 2rem;
-	padding: 0 20px;
+  color: #fff6f0;
+  margin-top: 2rem;
+  padding: 0 20px;
 }
 
 .lokacija-info h3 {
-	font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.dostava-description {
-	font-size: 20px;
-	margin-bottom: 64px;
-}
 
 /*
 -------------------------------------------------- */
