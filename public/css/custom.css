@@ -697,18 +697,45 @@ nav {
   padding: 51px 0 51px;
 }
 
-#content-bott h3 {
+#content-bott span {
   font-size: 68px;
   font-weight: 900;
   line-height: 50px;
   font-family: "Lato", sans-serif;
   font-style: italic;
+  color: #006B43;
+  display: inline-block;
+  margin-top: 28px;
+}
+
+#content-bott span:first-child {
   color: #F58634;
-  margin-bottom: 42px;
+  margin-right: 2rem;
 }
 
 #content-bott p {
-  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 43px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 50px;
+}
+
+.new-cena,
+.new-cifra {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 900;
+  display: inline;
+}
+
+.new-cena {
+  color: #006B43;
+  font-size: 32px !important;
+}
+
+.new-cifra {
+  color: #F58634;
+  font-size: 36px !important;
 }
 
 /* Footer

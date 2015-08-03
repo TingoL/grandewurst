@@ -187,12 +187,13 @@
     <div class="container">
       <div class="row">
         <div class="new-info one-half column">
-          <h3>Nova kobaja!</h3>
+          <span>Nova </span><span> kobaja!</span>
           <p>
              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
              consequat. 
           </p>
+          <p class="new-cena"> Samo </p><p class="new-cifra">100</p><p class="new-cena"> dinara! </p>
         </div>
         <img class="new-product one-half column u-max-full-width" src="public/images/new.jpg"/>
       </div>
