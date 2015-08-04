@@ -910,10 +910,52 @@ footer ul li:hover > a {
     font-family: "Open Sans", sans-serif;
 }
 
+.sekcija-1 td {
+    color: white;
+}
+
+.sekcija-2 {
+    background-color: #fff6f0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sekcija-2 td {
+    color: black;
+}
+
+
+.sekcija-3 {
+    background-color: #006b43;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sekcija-3 td {
+    color: white;
+}
+
+
+.sekcija-4 {
+    background-color: #fff6f0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sekcija-4 td {
+    color: black;
+}
+
+.sekcija-5 {
+    background-color: #006b43;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sekcija-5 td {
+    color: white;
+}
+
 .tabela {
-    font-color: red;
     margin-top: 4rem;
     margin-bottom: 4rem;
     margin-left: 5rem:
 
 }
+

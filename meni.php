@@ -16,23 +16,23 @@
             <tbody>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
             <tbody>
            </table>
@@ -54,30 +54,159 @@
         <div class ="one-half column tabela">
           <table class="u-full-width">
             <tbody>
+              <colgroup>
+                <col id="artikal" />
+                <col id="cena" />
+              </colgroup>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
                 <tr>
                   <td>Kobaja</td>
-                  <td>100rsd</td>
+                  <td style="text-align:right">100rsd</td>
                 </tr>
             <tbody>
           </table>
         </div>
       </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sekcija-3">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column slika">
+          <img class="meni-kobaje" src="public/images/lel.jpg" />
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class ="one-half column tabela">
+          <table class="u-full-width">
+            <tbody>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+            <tbody>
+           </table>
+          </div> 
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="sekcija-4">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column slika">
+          <img class="meni-kobaje" src="public/images/lel.jpg" />
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class ="one-half column tabela">
+          <table class="u-full-width">
+            <tbody>
+              <colgroup>
+                <col id="artikal" />
+                <col id="cena" />
+              </colgroup>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+            <tbody>
+          </table>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sekcija-5">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column slika">
+          <img class="meni-kobaje" src="public/images/lel.jpg" />
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class ="one-half column tabela">
+          <table class="u-full-width">
+            <tbody>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+                <tr>
+                  <td>Kobaja</td>
+                  <td style="text-align:right">100rsd</td>
+                </tr>
+            <tbody>
+           </table>
+          </div> 
+        </div>
         </div>
       </div>
     </div>
