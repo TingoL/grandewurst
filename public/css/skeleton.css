@@ -48,8 +48,9 @@
     padding: 0; }
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+/* For devices larger than 768px
+   Original je 550px, promenjeno zbog boljeg izgleda */
+@media (min-width: 768px) {
   .container {
     width: 80%; }
   .column,

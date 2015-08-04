@@ -18,19 +18,19 @@
             </div>
           </div>
 
-          <div class="four columns">
+          <div class="five columns">
             <address class="address">
               <ul>
-                <li><h5>KONTAKTIRAJTE NAS</h5></li>
-                <li>E-mail: grandewurst@gmail.com</li>
-                <li>Adresa: Bul. Zorana Đinđića</li>
-                <li>Tel. za porudžbine: 062 55 12 55</li>
-                <li>Radno vreme: 08 - 23h</li>
+                <li><h5>KONTAKT</h5></li>
+                <li>E-mail: <span class="contactItem">grandewurst@gmail.com</li>
+                <li>Adresa: <span class="contactItem">Bul. Zorana Đinđića</li>
+                <li>Tel. za porudžbine: <span class="contactItem">062 55 12 55</li>
+                <li>Radno vreme: <span class="contactItem">08 - 23h</li>
               </ul>
             </address>
           </div>
 
-          <div class="four columns">
+          <div class="two columns">
             <div class="social-bott">
               <ul>
                 <li><a class="facebookBtn soc-kruzic" href="#" ></a></li>

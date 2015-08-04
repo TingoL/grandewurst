@@ -143,7 +143,7 @@
     </div><!--end top-segment-->
   </div><!--end content-top-->
 
-  <div id="content-bott">
+  <div id="content-midd">
     <div class="container">
 
 
@@ -154,25 +154,25 @@
         </div>
 
       <div class="row">
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
+        <div class="food-info one-third column">
+          <img class="food-img u-max-full-width" src="public/images/kobaja.jpg"/>
           <h3>Kobasice</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
+        <div class="food-info one-third column">
+          <img class="food-img u-max-full-width" src="public/images/salata.jpg"/>
           <h3>Salate</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
-        <div class="food-info four columns">
-          <img class="food-img" src="public/images/nindza.jpg"/>
-          <h3>Sendvici</h3>
+        <div class="food-info one-third column">
+          <img class="food-img u-max-full-width" src="public/images/sendvic.jpg"/>
+          <h3>Sendviči</h3>
           <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
@@ -183,45 +183,22 @@
     </div>
   </div>
 
-  <div id="content-top">
-    <div class="top-segment">
-      <div class="container">
-
-        <div class="welcome-section">
-          <h3>Novo u vašem komšiluku!</h3>
-          <p class="border"></p>
-          <h6>Fast food Grande Wurst vam donosi na vrata najbolje austrijske kobasice!</h6>
+  <div id="content-bott">
+    <div class="container">
+      <div class="row">
+        <div class="new-info one-half column">
+          <span>Nova </span><span> kobaja!</span>
+          <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+             consequat. 
+          </p>
+          <p class="new-cena"> Samo </p><p class="new-cifra">100</p><p class="new-cena"> dinara! </p>
         </div>
-
-        <div class="row">
-          <div class="one-third column value">
-            <div class="info-section">
-              <img class="info-kruzici" src="public/images/icon1.png" />
-            </div>
-            <h5 class="value-heading">Austrijske kobaje</h5>
-            <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-          </div>
-          
-          <div class="one-third column value">
-            <div class="info-section">
-              <img class="info-kruzici" src="public/images/icon2.png" />
-            </div>
-            <h5 class="value-heading">Minimalna porudžbina</h5>
-            <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-          </div>
-          
-          <div class="one-third column value">
-            <div class="info-section">
-              <img class="info-kruzici" src="public/images/icon3.png" />
-            </div>
-            <h5 class="value-heading">Puno proteina</h5>
-            <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-
-          </div>
-        </div>
-      </div><!--end container-->
-    </div><!--end top-segment-->
-  </div><!--end content-top-->
+        <img class="new-product one-half column u-max-full-width" src="public/images/new.jpg"/>
+      </div>
+    </div>
+  </div>
 
 
   <!--Slide JS-->
