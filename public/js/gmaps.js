@@ -2,11 +2,20 @@ var latlngFirst = new google.maps.LatLng(44.810131,20.426845);
 var latlngSecond = new google.maps.LatLng(44.8048328,20.4815196);
 var mapCenter = new google.maps.LatLng(44.8087301, 20.4503202)
 
+
 function initialize() {
-	
+	  var mq = window.matchMedia( "(min-width: 768px)" );
+    var zoom;
+    if (mq.matches) {
+      zoom = 13; }
+    else {
+      zoom = 12;
+    }
+    console.log(zoom);
+
     var mapOptions= {
         center: mapCenter,
-        zoom: 13
+        zoom: zoom
     };
 
     var map = new google.maps.Map(document.getElementById('gmap'), mapOptions);
@@ -22,7 +31,7 @@ function initialize() {
     });
 
     marker1.setMap(map);
-    marker2.setMap(map)
+    marker2.setMap(map);
 
     var circle1;
     var circle2;

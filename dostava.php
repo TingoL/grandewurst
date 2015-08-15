@@ -20,7 +20,7 @@
               <p>Bulevar Zorana Đinđića 12g<br>11070 Beograd - Novi Beograd</p>
           </div>
 
-          <div class="three columns">
+          <div class="four columns">
             <h3>Telefon</h3>
             <p>060/ 123 4567<br>060/ 123 4567</p>
            </div>
@@ -33,21 +33,30 @@
       </div>
     </div><!-- end kontakt-wrapper -->
     
-    <div class="container">
-      <div class="dostava-naslov">
+    <div class="container" style>
+      
+      <div class="dostava-naslov twelve columns">
         <h2>Lorem ipsum dolor sit amet, consectetur!</h2>
         <p class="border"></p>
       </div>
-      <div class="dostava-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id odio egestas, porta ante vel, porttitor risus.
-        Nunc venenatis lectus ut pellentesque maximus. Integer eu fermentum lacus. Quisque a maximus dui.
-        Donec malesuada feugiat libero, vitae mattis est sollicitudin in. 
-        Nunc pharetra eros vel convallis mollis. 
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-        Sed faucibus urna turpis, sed facilisis tortor molestie id. In molestie orci a venenatis rhoncus.
-      </div>
     </div>
+
+
+    <div class="container">
+      <div class="dostava-description">
+  
+        <div class="one-third column">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <div class="one-third column">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <div class="one-third column">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
     
+    </div>
   </div><!-- end dostava-wrapper -->
 
 

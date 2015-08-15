@@ -261,7 +261,7 @@ nav {
   top: 17px;
   height: 0;
 }
-@media all and (max-width: 768px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+@media all and (max-width: 768px) {
   .primary {
     width: 100%;
   }
@@ -914,7 +914,7 @@ footer ul li:hover > a {
 }
 
 .dostava-wrapper {
-  overflow: auto;
+  overflow: hidden;
   background-color: #fff6f0;
   width: 100%;
  }
@@ -948,7 +948,8 @@ footer ul li:hover > a {
 }
 
 .dostava-naslov {
-  margin-top: 71px;
+  margin-top: 98px;
+  margin-bottom: 71px;
   font-family: "Lato", sans-serif;
   font-size: 43px;
   font-weight: 900;
@@ -960,11 +961,35 @@ footer ul li:hover > a {
 }
 
 .dostava-description {
-  margin: 60px 0 71px;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+
+.dostava-description div {
   text-align: center;
   font-size: 24px;
   line-height: 30px;
-  background-color: inherit;
+  margin-bottom: 90px;
+}
+
+@media all and (max-width: 768px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #gmap{
+    height: 400px;
+  }
+
+  .dostava-description div {
+    margin-bottom: 64px;
+  }
+
+  .kontakt {
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .kontakt div h3 {
+    padding-top: 15px;
+  }
 }
 
 
