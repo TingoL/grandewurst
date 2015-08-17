@@ -236,5 +236,13 @@
     });
   </script>
 
+  <script type="text/javascript">
+    if (clientIsMobile) {
+      for (var i = 0; i <= 3; i++) {
+        changeImageSrc("slide" + i, "public/images/550/slide" + i +".jpg");
+      }
+    }
+  </script>
+
 
   <?php require("footer.php"); ?>  
