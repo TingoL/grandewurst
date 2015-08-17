@@ -1,4 +1,3 @@
-var clientIsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 
 (function($) {
 
@@ -77,6 +76,8 @@ function changeImageSrc(imgid, source) {
   document.getElementById(imgid).src=source;
 }
 
+
+var clientIsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
 
 if (clientIsMobile) {
   var mqHandheld = window.matchMedia( "(max-width: 550px)" );
