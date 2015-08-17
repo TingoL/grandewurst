@@ -11,7 +11,6 @@ function initialize() {
     else {
       zoom = 12;
     }
-    console.log(zoom);
 
     var mapOptions= {
         center: mapCenter,

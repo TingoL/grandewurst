@@ -3,12 +3,15 @@
     require("header.php");
    ?>  
   
+
+
+
   <!-- Slajder
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div id="slides">
     <div class="slide">
-      <img src="public/images/example-slide-1.jpg">
+      <img id="slide0" src="public/images/slide0.jpg" \>
       <div class="inner-info">
         <div class="container">
 
@@ -30,7 +33,7 @@
   </div><!-- end slide -->
 
     <div class="slide">
-      <img src="public/images/example-slide-2.jpg">
+      <img id="slide1" src="public/images/slide1.jpg" \>
       <div class="inner-info">
         <div class="container">
 
@@ -52,7 +55,7 @@
   </div><!-- end slide -->
 
     <div class="slide">
-      <img src="public/images/example-slide-3.jpg">
+      <img id="slide2" src="public/images/slide2.jpg" \>
       <div class="inner-info">
         <div class="container">
 
@@ -74,7 +77,7 @@
   </div><!-- end slide -->
 
     <div class="slide">
-      <img src="public/images/example-slide-4.jpg"> 
+      <img id="slide3" src="public/images/slide3.jpg" \> 
       <div class="inner-info">
         <div class="container">
 
@@ -100,6 +103,14 @@
   
   </div>
 
+  <script type="text/javascript"> 
+    var mqHandheld = window.matchMedia( "(max-width: 550px)" );
+    if (mqHandheld.matches) {
+      for (var i = 0; i <= 3; i++) {
+        changeImageSrc("slide" + i, "public/images/550/slide"  + i + ".jpg");
+      }
+    }
+  </script>
 
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -204,9 +215,16 @@
   <!--Slide JS-->
   <script type="text/javascript">
     $(function() {
+      var imgWidth = 940;
+      var imgHeight = 400;
+      var mqHandheld = window.matchMedia( "(max-width: 550px)" );
+      if (mqHandheld.matches) {
+        imgWidth = 550;
+        imgHeight = 600;
+      }
       $('#slides').slidesjs({
-        width: 940,
-        height: 400,
+        width: imgWidth,
+        height: imgHeight,
         navigation: false,
         pagination: false,
 
@@ -226,5 +244,6 @@
             $('.slidesjs-navigation').fadeOut();        
     });
   </script>
+
 
   <?php require("footer.php"); ?>  

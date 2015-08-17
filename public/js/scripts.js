@@ -70,3 +70,7 @@ $(".primary").menumaker({
 
 });
 })(jQuery);
+
+function changeImageSrc(imgid, source) {
+  document.getElementById(imgid).src=source;
+    }

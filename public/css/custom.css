@@ -484,6 +484,7 @@ nav {
 
 #slides a:hover, #slides a:active { color: #9e2020 }
 
+
 /* Inner info
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -568,6 +569,28 @@ nav {
   font-weight: bold;
   font-style: italic;
   line-height: 25px;
+}
+
+@media all and (max-width: 550px) {
+  .inner-info {
+    width: 100%;
+    height: 60%;
+  }
+
+  .cena {
+    font-size: 82px;
+  }
+
+  .rsd {
+    font-size: 32px;
+  }
+
+  .artikal {
+    font-size: 42px;
+    line-height: 70px;
+  }
+
+
 }
 
 /* Sections (izmeniti nazive klasa)
