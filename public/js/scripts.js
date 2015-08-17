@@ -1,3 +1,5 @@
+var clientIsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+
 (function($) {
 
   $.fn.menumaker = function(options) {
@@ -73,4 +75,14 @@ $(".primary").menumaker({
 
 function changeImageSrc(imgid, source) {
   document.getElementById(imgid).src=source;
+}
+
+
+if (clientIsMobile) {
+  var mqHandheld = window.matchMedia( "(max-width: 550px)" );
+  if (mqHandheld.matches) {
+    for (var i = 0; i <= 3; i++) {
+      changeImageSrc("slide" + i, "public/images/550/slide"  + i + ".jpg");
     }
+  }
+}

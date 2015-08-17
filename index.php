@@ -103,15 +103,6 @@
   
   </div>
 
-  <script type="text/javascript"> 
-    var mqHandheld = window.matchMedia( "(max-width: 550px)" );
-    if (mqHandheld.matches) {
-      for (var i = 0; i <= 3; i++) {
-        changeImageSrc("slide" + i, "public/images/550/slide"  + i + ".jpg");
-      }
-    }
-  </script>
-
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="content-top">
@@ -218,7 +209,7 @@
       var imgWidth = 940;
       var imgHeight = 400;
       var mqHandheld = window.matchMedia( "(max-width: 550px)" );
-      if (mqHandheld.matches) {
+      if (clientIsMobile) {
         imgWidth = 550;
         imgHeight = 600;
       }

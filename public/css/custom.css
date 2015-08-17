@@ -484,6 +484,15 @@ nav {
 
 #slides a:hover, #slides a:active { color: #9e2020 }
 
+@media all and (max-width: 550px) {
+  .fa-chevron-left {
+    display: none;
+  }
+  .fa-chevron-right {
+    display: none;
+  }
+}
+
 
 /* Inner info
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
