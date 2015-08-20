@@ -241,7 +241,11 @@
       for (var i = 0; i <= 3; i++) {
         changeImageSrc("slide" + i, "public/images/550/slide" + i +".jpg");
       }
+      innerInfos = document.getElementsByClassName("inner-info");
+      for (var i = 0; i < innerInfos.length; i++) {
+        innerInfos[i].style.height = "30%";
     }
+  }
   </script>
 
 
