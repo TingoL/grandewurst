@@ -261,7 +261,7 @@ nav {
   top: 17px;
   height: 0;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 783px) {
   .primary {
     width: 100%;
   }
@@ -484,7 +484,7 @@ nav {
 
 #slides a:hover, #slides a:active { color: #9e2020 }
 
-@media all and (max-width: 550px) {
+@media all and (max-width: 768px) {
   .fa-chevron-left {
     display: none;
   }
@@ -580,14 +580,65 @@ nav {
   line-height: 25px;
 }
 
-@media all and (max-width: 550px) {
-  .inner-info {
-    width: 100%;
-    height: 60%;
+@media all and (max-width: 1024px) {
+
+  .cena-wrap {
+    height: auto;
+    line-height: 30px;
   }
 
   .cena {
-    font-size: 82px;
+    font-size: 52px;
+  }
+
+  .rsd {
+    font-size: 28px;
+  }
+
+  .artikal {
+    font-size: 62px;
+  }
+
+}
+@media all and (max-width: 768px) {
+
+  .cena-wrap {
+    height: auto;
+    line-height: 30px;
+  }
+
+  .cena {
+    font-size: 49px;
+  }
+
+  .rsd {
+    font-size: 20px;
+  }
+
+  .artikal {
+    font-size: 42px;
+  }
+
+  .opis {
+    display: none;
+  }
+
+}
+
+
+@media all and (max-width: 550px) {
+
+  .cena-wrap {
+    line-height: 60px;
+  }
+
+  .inner-info {
+    width: 100%;
+    height: 40%;
+  }
+
+  .cena {
+    font-size: 62px;
   }
 
   .rsd {
@@ -595,8 +646,12 @@ nav {
   }
 
   .artikal {
-    font-size: 42px;
-    line-height: 70px;
+    font-size: 34px;
+    line-height: 60px;
+  }
+
+  .opis {
+    display: none;
   }
 
 
