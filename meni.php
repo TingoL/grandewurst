@@ -8,7 +8,13 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
         </div>
+
     <div class="container">
       <div class="row">
         <div class ="one-half column tabela">
@@ -48,6 +54,11 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
         </div>
     <div class="container">
       <div class="row">
@@ -92,6 +103,11 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
         </div>
     <div class="container">
       <div class="row">
@@ -133,6 +149,11 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
         </div>
     <div class="container">
       <div class="row">
@@ -177,6 +198,11 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <div class="ribbon-stitches-top"></div>
+            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
+            <div class="ribbon-stitches-bottom"></div>
+          </div>
         </div>
     <div class="container">
       <div class="row">
