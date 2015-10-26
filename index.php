@@ -15,6 +15,7 @@
       <div class="inner-info">
         <div class="container">
 
+        <!--
         <div class="info-wrap">
           <div class="cena-wrap">
               <p class="cena">100</p>
@@ -26,7 +27,9 @@
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
           </p>
-        </div><!-- end info-wrap -->
+        </div>
+        -->
+
 
       </div><!-- end container -->
     </div><!-- end inner-info -->
@@ -37,6 +40,7 @@
       <div class="inner-info">
         <div class="container">
 
+        <!--
         <div class="info-wrap">
           <div class="cena-wrap">
               <p class="cena">100</p>
@@ -48,7 +52,8 @@
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
           </p>
-        </div><!-- end info-wrap -->
+        </div>
+        -->
 
       </div><!-- end container -->
     </div><!-- end inner-info -->
@@ -59,6 +64,7 @@
       <div class="inner-info">
         <div class="container">
 
+        <!--
         <div class="info-wrap">
           <div class="cena-wrap">
               <p class="cena">100</p>
@@ -70,7 +76,8 @@
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
           </p>
-        </div><!-- end info-wrap -->
+        </div>
+        -->
 
       </div><!-- end container -->
     </div><!-- end inner-info -->
@@ -81,6 +88,8 @@
       <div class="inner-info">
         <div class="container">
 
+
+        <!--
         <div class="info-wrap">
           <div class="cena-wrap">
               <p class="cena">100</p>
@@ -92,16 +101,44 @@
           <p class="opis">
             Iznutrice, zubi, oči, mast, mlevene kosti
           </p>
-        </div><!-- end info-wrap -->
+        </div>
+        -->
 
       </div><!-- end container -->
     </div><!-- end inner-info -->
   </div><!-- end slide -->
 
+  <div class="slide">
+      <img id="slide4" src="public/images/slide4.jpg" \> 
+      <div class="inner-info">
+        <div class="container">
+
+
+        <!--
+        <div class="info-wrap">
+          <div class="cena-wrap">
+              <p class="cena">100</p>
+              <p class="rsd">rsd</p>
+          </div>
+          <h1 class="artikal">
+            Austrijska kobasica 4
+          </h1>  
+          <p class="opis">
+            Iznutrice, zubi, oči, mast, mlevene kosti
+          </p>
+        </div>
+        -->
+
+      </div><!-- end container -->
+    </div><!-- end inner-info -->
+  </div><!-- end slide -->
+
+
       <a href="#" class="slidesjs-previous slidesjs-navigation slides-button"><span class="fa fa-chevron-left fa-4x"></span></a>
       <a href="#" class="slidesjs-next slidesjs-navigation slides-button"><span class="fa fa-chevron-right fa-4x"></span></a>
   
   </div>
+
 
   <!-- Content top
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -158,24 +195,24 @@
       <div class="row">
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/kobaja.jpg"/>
-          <h3>Kobasice</h3>
-          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <h5 class="value-heading">Kobasice</h5>
+          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/salata.jpg"/>
-          <h3>Salate</h3>
-          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <h5 class="value-heading">Salate</h5>
+          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
 
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/sendvic.jpg"/>
-          <h3>Sendviči</h3>
-          <p class="food-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <h5 class="value-heading">Sendviči</h5>
+          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
           </p>
         </div>
@@ -206,13 +243,17 @@
   <!--Slide JS-->
   <script type="text/javascript">
     $(function() {
-      var imgWidth = 940;
-      var imgHeight = 400;
+      var imgWidth = 1366;
+      var imgHeight = 768;
       var mqHandheld = window.matchMedia( "(max-width: 550px)" );
+      
+      /*
       if (clientIsMobile) {
         imgWidth = 550;
         imgHeight = 600;
       }
+      */
+
       $('#slides').slidesjs({
         width: imgWidth,
         height: imgHeight,
@@ -236,6 +277,7 @@
     });
   </script>
 
+  <!--
   <script type="text/javascript">
     if (clientIsMobile) {
       for (var i = 0; i <= 3; i++) {
@@ -247,6 +289,7 @@
     }
   }
   </script>
+  -->
 
 
   <?php require("footer.php"); ?>  
