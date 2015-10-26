@@ -1,15 +1,15 @@
-var latlngFirst = new google.maps.LatLng(44.810131,20.426845);
-var latlngSecond = new google.maps.LatLng(44.8048328,20.4815196);
-var mapCenter = new google.maps.LatLng(44.8087301, 20.4503202)
+var latlngFirst = new google.maps.LatLng(44.81277518,20.42888403);
+var latlngSecond = new google.maps.LatLng(44.82204486,20.46421409);
+var mapCenter = new google.maps.LatLng(44.81874204, 20.4462862)
 
 
 function initialize() {
 	  var mq = window.matchMedia( "(min-width: 768px)" );
     var zoom;
     if (mq.matches) {
-      zoom = 13; }
+      zoom = 14; }
     else {
-      zoom = 12;
+      zoom = 13;
     }
 
     var mapOptions= {
@@ -32,30 +32,46 @@ function initialize() {
     marker1.setMap(map);
     marker2.setMap(map);
 
-    var circle1;
-    var circle2;
 
-    var circle1 = new google.maps.Circle({
-      strokeColor: '#005636',
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: '#006b43',
-      fillOpacity: 0.35,
-      map: map,
-      center: latlngFirst,
-      radius: 900
-    });
+    var firstReonOneCoordinates = [
+    {lat: 44.82534749, lng: 20.42038679},
+    {lat: 44.81612401, lng: 20.41193247},
+    {lat: 44.80315385, lng: 20.43961287},
+    {lat: 44.80531574, lng: 20.44240236},
+    {lat: 44.81575869, lng: 20.44244528},
+    {lat: 44.82534749, lng: 20.42038679}
+  ];
+  var firstReonOne = new google.maps.Polyline({
+    path: firstReonOneCoordinates,
+    geodesic: true,
+    strokeColor: '#000000',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
 
-    var circle2 = new google.maps.Circle({
-      strokeColor: '#b26126',
-      strokeOpacity: 0.8,
-      strokeWeight: 2,
-      fillColor: '#f58634',
-      fillOpacity: 0.35,
-      map: map,
-      center: latlngSecond,
-      radius: 900
-    });
+  var firstReonTwoCoordinates = [
+    {lat: 44.82534749, lng: 20.42038679},
+    {lat: 44.83125217, lng: 20.41897058},
+    {lat: 44.83128261, lng: 20.3998518},
+    {lat: 44.81597179, lng: 20.39491653},
+    {lat: 44.80458497, lng: 20.39937973},
+    {lat: 44.80339744, lng: 20.42242527},
+    {lat: 44.80111367, lng: 20.42532206},
+    {lat: 44.80147908, lng: 20.43716669},
+    {lat: 44.80315385, lng: 20.43961287}
+  ];
+  var firstReonTwo = new google.maps.Polyline({
+    path: firstReonTwoCoordinates,
+    geodesic: true,
+    strokeColor: '#D15F27',
+    strokeOpacity: 1.0,
+    strokeWeight: 2
+  });
+
+  firstReonOne.setMap(map);
+  firstReonTwo.setMap(map);
+
+   
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
