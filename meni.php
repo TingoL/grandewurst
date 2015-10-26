@@ -3,15 +3,15 @@
     require("header.php");
    ?>  
 
+
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower">
   <div class="sekcija-1">
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <div class="ribbon-stitches-top"></div>
-            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
-            <div class="ribbon-stitches-bottom"></div>
+            <strong class="ribbon-content"><h1>Kobasice</h1></strong>
           </div>
         </div>
 
