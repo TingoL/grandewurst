@@ -21,24 +21,23 @@
           <table class="u-full-width">
             <tbody>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Sa Sirom 170g/120g/85g</td>
+                  <td style="text-align:right">280/230/160 </td>
+                </tr>
+                  <td>Lucifer 170g/120g/85g</td>
+                  <td style="text-align:right">290/240/170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Blago ljuta sa sirom 170g/85g</td>
+                  <td style="text-align:right">280/160 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Pivska 170g/85g</td>
+                  <td style="text-align:right">260/150 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
-                </tr>
-                <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Kranjska 170g/85g</td>
+                  <td style="text-align:right">270/150 </td>
                 </tr>
             <tbody>
            </table>
@@ -55,9 +54,7 @@
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <div class="ribbon-stitches-top"></div>
-            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
-            <div class="ribbon-stitches-bottom"></div>
+            <strong class="ribbon-content"><h1>Sendvici</h1></strong>
           </div>
         </div>
     <div class="container">
@@ -70,24 +67,28 @@
                 <col id="cena" />
               </colgroup>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Buđola</td>
+                  <td style="text-align:right">170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Seljački Pršut</td>
+                  <td style="text-align:right">170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Šunka</td>
+                  <td style="text-align:right">150 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Biber Blok</td>
+                  <td style="text-align:right">160 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Piletina</td>
+                  <td style="text-align:right">160 </td>
+                </tr>
+                <tr>
+                  <td>Tunjevina</td>
+                  <td style="text-align:right">170 </td>
                 </tr>
             <tbody>
           </table>
@@ -104,9 +105,7 @@
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <div class="ribbon-stitches-top"></div>
-            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
-            <div class="ribbon-stitches-bottom"></div>
+            <strong class="ribbon-content"><h1>Tortilje</h1></strong>
           </div>
         </div>
     <div class="container">
@@ -115,24 +114,24 @@
           <table class="u-full-width">
             <tbody>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Pohovana Piletina</td>
+                  <td style="text-align:right">190 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Piletina</td>
+                  <td style="text-align:right">190 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Grilovana Šunka</td>
+                  <td style="text-align:right">200 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Piletina-Wurst cheese</td>
+                  <td style="text-align:right">220 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Piletina-Wurst ljuta</td>
+                  <td style="text-align:right">230 </td>
                 </tr>
             <tbody>
            </table>
@@ -150,9 +149,7 @@
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <div class="ribbon-stitches-top"></div>
-            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
-            <div class="ribbon-stitches-bottom"></div>
+            <strong class="ribbon-content"><h1>Salate</h1></strong>
           </div>
         </div>
     <div class="container">
@@ -165,24 +162,20 @@
                 <col id="cena" />
               </colgroup>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Testenina-Piletina veća/manja</td>
+                  <td style="text-align:right">240/170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Testenina-Tunjevina veća/manja</td>
+                  <td style="text-align:right">240/170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Piletina-Jaje veća/manja</td>
+                  <td style="text-align:right">240/170 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
-                </tr>
-                <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Cezar veća/manja</td>
+                  <td style="text-align:right">250/180 </td>
                 </tr>
             <tbody>
           </table>
@@ -199,9 +192,7 @@
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <div class="ribbon-stitches-top"></div>
-            <strong class="ribbon-content"><h1>A Pure CSS Ribbon</h1></strong>
-            <div class="ribbon-stitches-bottom"></div>
+            <strong class="ribbon-content"><h1>Šejkovi</h1></strong>
           </div>
         </div>
     <div class="container">
@@ -210,24 +201,20 @@
           <table class="u-full-width">
             <tbody>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Protein Water</td>
+                  <td style="text-align:right">160 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Protein Shake</td>
+                  <td style="text-align:right">190 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Protein Shake Mix</td>
+                  <td style="text-align:right">180 </td>
                 </tr>
                 <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
-                </tr>
-                <tr>
-                  <td>Kobaja</td>
-                  <td style="text-align:right">100rsd</td>
+                  <td>Shake Obrok</td>
+                  <td style="text-align:right">230 </td>
                 </tr>
             <tbody>
            </table>
@@ -238,4 +225,46 @@
     </div>
   </div>
 
+  <div class="sekcija-6">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column slika">
+          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <div class="ribbon">
+            <strong class="ribbon-content"><h1>Ostalo</h1></strong>
+          </div>
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class ="one-half column tabela">
+          <table class="u-full-width">
+            <tbody>
+              <colgroup>
+                <col id="artikal" />
+                <col id="cena" />
+              </colgroup>
+                <tr>
+                  <td>Pomfrit 300g/200g</td>
+                  <td style="text-align:right">140/100 </td>
+                </tr>
+                <tr>
+                  <td>Omlet Lepinja</td>
+                  <td style="text-align:right">170 </td>
+                </tr>
+                <tr>
+                  <td>Hot Dog double/single</td>
+                  <td style="text-align:right">170/130 </td>
+                </tr>
+                <tr>
+                  <td>Chicken Nuggets 5/9/20kom</td>
+                  <td style="text-align:right">160/270/540 </td>
+                </tr>
+            <tbody>
+          </table>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <?php require("footer.php"); ?>
