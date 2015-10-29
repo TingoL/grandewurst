@@ -33,6 +33,7 @@
   <script type="public/js/tables.js"></script>
   <script src="public/js/scripts.js"></script>
   <script src="public/js/gmaps.js"></script>
+  <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/maplabel/src/maplabel-compiled.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

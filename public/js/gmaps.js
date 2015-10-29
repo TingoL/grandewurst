@@ -1,6 +1,6 @@
 var latlngFirst = new google.maps.LatLng(44.81277518,20.42888403);
 var latlngSecond = new google.maps.LatLng(44.82204486,20.46421409);
-var mapCenter = new google.maps.LatLng(44.81874204, 20.4462862)
+var mapCenter = new google.maps.LatLng(44.81752437, 20.44242382);
 
 
 function initialize() {
@@ -21,16 +21,15 @@ function initialize() {
 
     var marker1 = new google.maps.Marker({
         position: latlngFirst,
-        icon: "public/images/marker.png"
+        icon: "public/images/marker.png",
+        map: map
     });
 
     var marker2 = new google.maps.Marker({
         position: latlngSecond,
-        icon: "public/images/marker.png"
+        icon: "public/images/marker.png",
+        map: map
     });
-
-    marker1.setMap(map);
-    marker2.setMap(map);
 
 
     var firstReonOneCoordinates = [
@@ -68,7 +67,6 @@ function initialize() {
     strokeWeight: 3
   });
 
-
   var secondReonOneCoordinates = [
     {lat: 44.81469317, lng: 20.44967651},
     {lat: 44.81530204, lng: 20.46478271},
@@ -83,7 +81,8 @@ function initialize() {
     geodesic: true,
     strokeColor: '#000000',
     strokeOpacity: 1.0,
-    strokeWeight: 3
+    strokeWeight: 3,
+    map: map
   });
 
    var secondReonTwoCoordinates = [
@@ -113,12 +112,81 @@ function initialize() {
     strokeWeight: 3
   });
 
- 
-
   firstReonOne.setMap(map);
   firstReonTwo.setMap(map);
   secondReonOne.setMap(map);
   secondReonTwo.setMap(map);
+
+  var labelOneNBG = new MapLabel({
+    text: 'Reon 1',
+    position: new google.maps.LatLng(44.82002057, 20.42860508),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: 'white',
+    strokeColor: 'black',
+    strokeWeight: 3,
+    minZoom: 14
+  });
+  
+  var labelTwoNBG = new MapLabel({
+    text: 'Reon 2',
+    position: new google.maps.LatLng(44.81454095, 20.41246891),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: '#D15F27',
+    strokeWeight: 4,
+    minZoom: 14
+  });
+
+  var labelThreeNBG = new MapLabel({
+    text: 'Reon 3',
+    position: new google.maps.LatLng(44.81228807, 20.39495945),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: 'green',
+    strokeWeight: 4,
+    minZoom: 14
+  });
+
+  var labelOneCNT = new MapLabel({
+    text: 'Reon 1',
+    position: new google.maps.LatLng(44.81947263, 20.46422482),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: 'white',
+    strokeColor: 'black',
+    strokeWeight: 3,
+    minZoom: 14
+  });
+  
+  var labelTwoCNT = new MapLabel({
+    text: 'Reon 2',
+    position: new google.maps.LatLng(44.80930438, 20.47263622),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: '#D15F27',
+    strokeWeight: 4,
+    minZoom: 14
+  });
+
+  var labelThreeCNT = new MapLabel({
+    text: 'Reon 3',
+    position: new google.maps.LatLng(44.8081474, 20.49306393),
+    map: map,
+    align: 'right',
+    fontSize: 26,
+    fontColor: 'green',
+    strokeWeight: 4,
+    minZoom: 14
+  });
+
+  
+
   
    
 }
