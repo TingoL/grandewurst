@@ -3,8 +3,7 @@
     require("header.php");
    ?>  
 
-
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Indie+Flower">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <div class="sekcija-1">
     <div class="container">
       <div class="row">
@@ -54,7 +53,7 @@
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/lel.jpg" />
           <div class="ribbon">
-            <strong class="ribbon-content"><h1>Sendvici</h1></strong>
+            <strong class="ribbon-content"><h1>Sendviči</h1></strong>
           </div>
         </div>
     <div class="container">

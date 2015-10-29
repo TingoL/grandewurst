@@ -1213,11 +1213,11 @@ footer ul li:hover > a {
 
    }
 .ribbon h1 {
-   font-size: 55px!important;
+   font-size: 65px!important;
    font-weight:bold;
    color: #F58634;
    /* text-shadow: #d65c5c 0 1px 0; */
-   font-family: 'Indie Flower',Helvetica, sans-serif;
+   font-family: 'Kaushan Script',Helvetica, sans-serif;
    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
    margin:0px;
    padding: 15px 10px;
