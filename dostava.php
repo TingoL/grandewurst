@@ -17,12 +17,12 @@
           <div class="five columns">
             <h3>Adresa</h3>
               <p>Bulevar Zorana Đinđića 12g<br>11070 Beograd - Novi Beograd</p>
-              <p>Bulevar Zorana Đinđića 12g<br>11070 Beograd - Novi Beograd</p>
+              <p>Skenderbegova 53<br>11000 Beograd - Dorćol</p>
           </div>
 
           <div class="four columns">
             <h3>Telefon</h3>
-            <p>060/ 123 4567<br>060/ 123 4567</p>
+            <p>062/ 55 12 55<br>062/ 55 28 55</p>
            </div>
           
           <div class="three columns">
