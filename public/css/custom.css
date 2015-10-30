@@ -1124,6 +1124,7 @@ footer ul li:hover > a {
     width: 60%;
     height: 60%;
     border-radius: 50%;
+    text-align: center;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1132,10 +1133,12 @@ footer ul li:hover > a {
 }
 
 .slika {
+  padding-top: 15px;
+  padding-bottom: 15px;
   position: relative;
-  right: 10%;
   text-align: center;
   z-index: 100;
+  vertical-align: middle;
 }
 
 
@@ -1144,11 +1147,9 @@ footer ul li:hover > a {
     font-family: "Open Sans", sans-serif;
 }
 
-}
 .sekcija-1 td {
-    color: red;
+    color: white;
     white-space:nowrap;
-    border-right: 1px solid #DFDFDF;
 }
 
 .sekcija-2 {
@@ -1198,10 +1199,11 @@ footer ul li:hover > a {
     color: black;
 }
 .tabela {
+    vertical-align: middle;
     margin-top: 4rem;
     margin-bottom: 4rem;
     margin-left: 5rem:
-
+    display: table;
 }
 
 .ribbon {
