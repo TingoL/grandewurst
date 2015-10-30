@@ -230,7 +230,7 @@
           </p>
           <p class="new-cena"> Samo </p><p class="new-cifra">170</p><p class="new-cena"> dinara! </p>
         </div>
-        <img class="new-product one-half column u-max-full-width" src="public/images/JAJA.jpeg"/>
+        <img class="new-product one-half column u-max-full-width" src="public/images/omlet.png"/>
       </div>
     </div>
   </div>
