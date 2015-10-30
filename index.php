@@ -157,24 +157,24 @@
             <div class="info-section">
               <img class="info-kruzici" src="public/images/icon1.png" />
             </div>
-            <h5 class="value-heading">Austrijske kobaje</h5>
-            <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
+            <h5 class="value-heading">Austrijske kobasice</h5>
+            <p class="value-description">Probajte kobasice po originalnom austrijskom "Krainer" receptu.</p>
           </div>
           
           <div class="one-third column value">
             <div class="info-section">
               <img class="info-kruzici" src="public/images/icon2.png" />
             </div>
-            <h5 class="value-heading">Minimalna porudžbina</h5>
-            <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+            <h5 class="value-heading">Besplatna dostava</h5>
+            <p class="value-description">Poručite vašu omiljenu hranu iz vašeg doma.</p>
           </div>
           
           <div class="one-third column value">
             <div class="info-section">
               <img class="info-kruzici" src="public/images/icon3.png" />
             </div>
-            <h5 class="value-heading">Puno proteina</h5>
-            <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+            <h5 class="value-heading">Proteinski proizvodi</h5>
+            <p class="value-description">Poslastice za fizički aktivne ljude u pokretu</p>
 
           </div>
         </div>
@@ -189,31 +189,29 @@
         <div class="welcome-section">
           <h3>Šta naručiti?</h3>
           <p class="border"></p>
-          <h6>Širok asortiman ovoga, a bogami i onoga!</h6>
+          <h6>Odaberite nešto iz našeg širokog asortimana proizvoda!</h6>
         </div>
 
       <div class="row">
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/kobaja.jpg"/>
           <h5 class="value-heading">Kobasice</h5>
-          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          <p class="value-description">U ponudi imamo veliki izbor za sve ljubitelje ovog jela. Bilo da je to kobasica sa sirom, ljuta lucifer kobasica, klasična Krainer
+            ili možda pivska za uživanje uz utakmicu, nećete biti razočarani jedinstvenim ukusom.
           </p>
         </div>
 
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/salata.jpg"/>
           <h5 class="value-heading">Salate</h5>
-          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          <p class="value-description">Za one koji bi zdraviji i laganiji obrok nudimo selekciju salata u 2 veličine. Tu su salate sa tunjevinom, piletinom kao i nezaobilazna Cezar salata. 
           </p>
         </div>
 
         <div class="food-info one-third column">
           <img class="food-img" src="public/images/sendvic.jpg"/>
           <h5 class="value-heading">Sendviči</h5>
-          <p class="value-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          <p class="value-description">Za ljude u pokretu ili one koji žele kompaktan obrok za doručak preporučujemo Grande Wurst sendviče koji dolaze u 6 varijanti mesa kao i velikim brojem dodataka koji možete odabrati. 
           </p>
         </div>
       </div> 
@@ -226,15 +224,13 @@
     <div class="container">
       <div class="row">
         <div class="new-info one-half column">
-          <span>Nova </span><span> kobaja!</span>
+          <span>Novo kod nas! </span><span> Omlet lepinja</span>
           <p>
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-             consequat. 
+             Probajte naš najnoviji proizvod! Omlet lepinja u domaćem somunu je tu za vaš savršen početak dana.
           </p>
-          <p class="new-cena"> Samo </p><p class="new-cifra">100</p><p class="new-cena"> dinara! </p>
+          <p class="new-cena"> Samo </p><p class="new-cifra">170</p><p class="new-cena"> dinara! </p>
         </div>
-        <img class="new-product one-half column u-max-full-width" src="public/images/new.jpg"/>
+        <img class="new-product one-half column u-max-full-width" src="public/images/JAJA.jpeg"/>
       </div>
     </div>
   </div>

@@ -8,7 +8,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/kobasica-cropped.jpeg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Kobasice</h1></strong>
           </div>
@@ -51,7 +51,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/sendvic-cropped.png" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Sendviči</h1></strong>
           </div>
@@ -102,7 +102,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/twister1024.jpg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Tortilje</h1></strong>
           </div>
@@ -146,7 +146,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/salata1024.jpg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Salate</h1></strong>
           </div>
@@ -189,7 +189,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/slikaproteina.jpg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Šejkovi</h1></strong>
           </div>
@@ -228,7 +228,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/lel.jpg" />
+          <img class="meni-kobaje" src="public/images/nuggets.jpg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Ostalo</h1></strong>
           </div>
