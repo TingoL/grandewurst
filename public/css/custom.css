@@ -826,12 +826,12 @@ nav {
   margin-right: 2rem;
 }
 
-#content-bott p {
+.new-opis{
   font-family: "Open Sans", sans-serif;
   margin-top: 43px;
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 40px;
 }
 
 .new-cena,
@@ -842,13 +842,20 @@ nav {
 }
 
 .new-cena {
+  display: inline;
   color: #006B43;
   font-size: 32px !important;
+  margin-bottom: 40px;
 }
 
 .new-cifra {
   color: #F58634;
   font-size: 36px !important;
+}
+
+.new-product {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 @media all and (max-width: 768px){

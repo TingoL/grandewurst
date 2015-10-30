@@ -224,8 +224,8 @@
     <div class="container">
       <div class="row">
         <div class="new-info one-half column">
-          <span>Novo kod nas! </span><span> Omlet lepinja</span>
-          <p>
+          <span>Novo! </span><span> Omlet lepinja</span>
+          <p class="new-opis">
              Probajte naš najnoviji proizvod! Omlet lepinja u domaćem somunu je tu za vaš savršen početak dana.
           </p>
           <p class="new-cena"> Samo </p><p class="new-cifra">170</p><p class="new-cena"> dinara! </p>
