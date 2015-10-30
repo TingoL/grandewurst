@@ -29,6 +29,10 @@ body {
   -webkit-box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3);
+    background-image: -webkit-linear-gradient(top,  #00361c, #006e3b); 
+  background-image:    -moz-linear-gradient(top,  #00361c, #006e3b); 
+  background-image:      -o-linear-gradient(top,  #00361c, #006e3b);
+  background-image:         linear-gradient(to bottom, #00361c, #006e3b);
   border-bottom-right-radius: 2em;
   border-bottom-left-radius:  2em;
 }
@@ -48,9 +52,10 @@ body {
 .company-name {
   display: inline-block;
   width: 180px;
-  height: 75px;
+  height: 80px;
   margin: 0 auto;
 	background: url("../images/logo_txt.png") no-repeat 0 0;
+  background-size: cover;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent; 
@@ -60,9 +65,7 @@ body {
   display: inline-block;
   width: 56px;
   height: 55px;
-  padding-bottom: 5px;
-
-   
+  padding-bottom: 5px;   
 }
 
 /* Navigation
