@@ -146,7 +146,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/salata1024.jpg" />
+          <img class="meni-kobaje" src="public/images/salatica.jpg" />
           <div class="ribbon">
             <strong class="ribbon-content"><h1>Salate</h1></strong>
           </div>
