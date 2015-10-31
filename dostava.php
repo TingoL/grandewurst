@@ -42,7 +42,7 @@
     <div class="container" style>
       
       <div class="dostava-naslov twelve columns">
-        <h2>Lorem ipsum dolor sit amet, consectetur!</h2>
+        <h2>U zavisnosti od narudžbine, dostava je besplatna</h2>
         <p class="border"></p>
       </div>
     </div>
@@ -51,14 +51,18 @@
     <div class="container">
       <div class="dostava-description">
   
-        <div class="one-third column">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <div class="five columns">
+          <h5 class="value-heading">REON 1</h5>
+          <p>
+          Besplatna dostava za iznos od preko 600 dinara.<br>
+            Za iznos ispod 600 dinara dostava se naplacuje 60 dinara.</p>
         </div>
-        <div class="one-third column">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <div class="two columns">
         </div>
-        <div class="one-third column">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        <div class="five columns">
+          <h5 class="value-heading">REON 2</h5>
+          <p>Besplatna dostava za iznos od preko 950 dinara.<br>
+            Za iznos od 650 dinara dostava se naplacuje 100 dinara.</p>
         </div>
       </div>
     
