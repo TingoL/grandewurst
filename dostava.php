@@ -42,9 +42,9 @@
     <div class="container" style>
       
       <div class="dostava-naslov twelve columns">
-        <h2>U zavisnosti od narudžbine, dostava je besplatna</h2>
+        <h2>Besplatna dostava u zavisnosti od narudžbine</h2>
         <p class="border"></p>
-      </div>
+      </div>ss
     </div>
 
 
