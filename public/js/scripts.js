@@ -72,10 +72,3 @@ $(".primary").menumaker({
 });
 })(jQuery);
 
-var clientIsMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-function changeImageSrc(imgid, source) {
-  console.log("changing..");
-  document.getElementById(imgid).src=source;
-}
-

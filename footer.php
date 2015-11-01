@@ -1,15 +1,13 @@
 <!-- Footer
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="footer-wrapper">
-    <footer>
-      <div class="container">
-        <div class="row">
-
-          <div class="four columns">
-            <div class="bottom-nav">
-
-              <ul>
-                <li> <h5>NAVIGACIJA</h5>
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="footer-wrapper">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="four columns">
+          <div class="bottom-nav">
+            <ul>
+              <li> <h5>NAVIGACIJA</h5>
                 <li <?php if($current == 'pocetna') {echo 'class="current"';} ?>><a href=".">Početna</a></li>
                 <li <?php if($current == 'meni') {echo 'class="current"';} ?>><a href="meni.php">Meni</a></li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a href="dostava.php">Dostava</a></li>
@@ -17,7 +15,6 @@
               </ul>
             </div>
           </div>
-
           <div class="five columns">
             <address class="address">
               <ul>
@@ -28,7 +25,6 @@
               </ul>
             </address>
           </div>
-
           <div class="two columns">
             <div class="social-bott">
               <ul>
@@ -36,32 +32,27 @@
                 <li><a class="twitterBtn soc-kruzic" href="#" ></a></li>
                 <li><a class="googleplusBtn soc-kruzic" href="#" ></a></li>
               </ul>
-            </div><!-- end social -->
-          </div>
-        </div><!-- end row -->
-      </div><!-- end container -->
-    </footer>
-  </div><!-- end footer-wrapper -->
-
-
-<!-- Bottom
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="bottom-copyr">
-    <div class="container">
-      <p>GRANDE WURST © 2014 All rights reserved</p>
-    </div><!-- end container -->
-  </div>
-
-
-<script>
-  $(window).load(function() {
-    // When the page has loaded
-    $("body").css("visibility", "visible");
-  });
-</script>
-  
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-
-</html>
+              </div><!-- end social -->
+            </div>
+            </div><!-- end row -->
+            </div><!-- end container -->
+          </footer>
+          </div><!-- end footer-wrapper -->
+          <!-- Bottom
+          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          <div class="bottom-copyr">
+            <div class="container">
+              <p>GRANDE WURST © 2014 All rights reserved</p>
+              </div><!-- end container -->
+            </div>
+            <script>
+              $(window).load(function() {
+              // When the page has loaded
+              $("body").css("visibility", "visible");
+              });
+            </script>
+            
+            <!-- End Document
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+          </body>
+        </html>
