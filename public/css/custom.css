@@ -732,13 +732,20 @@ nav {
 
   /*margin-bottom: 1.2rem;*/
 }
-.value-heading {
+.value-heading, .value-heading-bright {
   color: #d15f27;
   line-height: 30px;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 22px;
+}
+.value-heading {
+  color: #d15f27;
+}
+
+.value-heading-bright {
+  color: #f08332;
 }
 .value-description {
   color: #2a2a2a;
@@ -773,12 +780,15 @@ nav {
   padding-bottom: 71px;
 }
 .food-img {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   margin-bottom: 20px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  padding: 10px;
+  background: #fff6f0;
+
 }
 .food-info h3 {
   font-family: "Lato", sans-serif;

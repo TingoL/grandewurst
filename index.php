@@ -163,20 +163,20 @@
                                         <div class="row">
                                           <div class="food-info one-third column">
                                             <img class="food-img" src="public/images/kobaja.jpg"/>
-                                            <h5 class="value-heading">Kobasice</h5>
+                                            <h5 class="value-heading-bright">Kobasice</h5>
                                             <p class="value-description">U ponudi imamo veliki izbor za sve ljubitelje ovog jela. Bilo da je to kobasica sa sirom, ljuta lucifer kobasica, klasična Krainer
                                               ili možda pivska za uživanje uz utakmicu, nećete biti razočarani jedinstvenim ukusom.
                                             </p>
                                           </div>
                                           <div class="food-info one-third column">
                                             <img class="food-img" src="public/images/salata.jpg"/>
-                                            <h5 class="value-heading">Salate</h5>
+                                            <h5 class="value-heading-bright">Salate</h5>
                                             <p class="value-description">Za one koji bi zdraviji i laganiji obrok nudimo selekciju salata u 2 veličine. Tu su salate sa tunjevinom, piletinom kao i nezaobilazna Cezar salata.
                                             </p>
                                           </div>
                                           <div class="food-info one-third column">
                                             <img class="food-img" src="public/images/sendvic.jpg"/>
-                                            <h5 class="value-heading">Sendviči</h5>
+                                            <h5 class="value-heading-bright">Sendviči</h5>
                                             <p class="value-description">Za ljude u pokretu ili one koji žele kompaktan obrok za doručak preporučujemo Grande Wurst sendviče koji dolaze u 6 varijanti mesa kao i velikim brojem dodataka koji možete odabrati.
                                             </p>
                                           </div>
