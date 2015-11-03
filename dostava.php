@@ -44,15 +44,14 @@
         <div class="container">
           <div class="dostava-description">
             
-            <div class="five columns">
+            <div class="reon-left">
               <h5 class="value-heading">REON 1</h5>
               <p>
                 Besplatna dostava za iznos od preko 600 dinara.<br>
               Za iznos ispod 600 dinara dostava se naplacuje 60 dinara.</p>
             </div>
-            <div class="two columns">
-            </div>
-            <div class="five columns">
+            
+            <div class="reon-right">
               <h5 class="value-heading">REON 2</h5>
               <p>Besplatna dostava za iznos od preko 950 dinara.<br>
               Za iznos od 650 dinara dostava se naplacuje 100 dinara.</p>

@@ -690,7 +690,7 @@ nav {
   padding-bottom: 51px;
 }
 .welcome-section h3, .welcome-section h6 {
-  color: #006b43;
+  color: #006436;
   font-family: "Lato", sans-serif;
   letter-spacing: 0.05rem;
 }
@@ -1015,8 +1015,8 @@ footer ul li:hover > a {
   display: block;
   height: auto;
   padding: 20px 0 51px;
-  background-image: url("../images/dsc_mini.jpg");
-  background-size: cover;
+  
+  background-color: #01411f;
 }
 .kontakt {
   display: block;
@@ -1042,7 +1042,7 @@ footer ul li:hover > a {
   font-weight: 900;
   line-height: 50px;
   text-align: center;
-  color: #006B43;
+  color: #006436;
   font-family: "Lato", sans-serif;
   font-weight: 900;
 }
@@ -1055,6 +1055,14 @@ footer ul li:hover > a {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 90px;
+}
+.region-left {
+  float: left;
+  display: inline-block;
+}
+.region-right {
+  float: right;
+  display: inline-block;
 }
 @media all and (max-width:768px), only screen and (min-resolution:2dppx) and (max-width:1024px) {
   #gmap {
@@ -1069,6 +1077,9 @@ footer ul li:hover > a {
   }
   .kontakt div h3 {
     padding-top: 15px;
+  }
+  .reon {
+    margin-bottom: 
   }
 }
 
