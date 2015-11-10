@@ -12,7 +12,7 @@ require("header.php");
   <div clas="container">
     <div class="row">
       <div class="twelve columns uvod">
-        <img class="logotip" src="public/images/krainer.png" />
+        <img class="logotip" src="public/images/krainer.jpg" />
         <div class="container">
       
                                     <div class="welcome-section">

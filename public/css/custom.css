@@ -1108,54 +1108,55 @@ footer ul li:hover > a {
   vertical-align: middle;
 }
 .sekcija-1 {
-  background-color: #006b43;
+  background-color: #fff6f0;
   font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
 }
 .sekcija-1 td {
-  color: white;
+  color: black;
   white-space: nowrap;
 }
 .sekcija-2 {
-  background-color: #fff6f0;
+  background-color: #006b43;
   font-family: "Open Sans", sans-serif;
 }
 .sekcija-2 td {
-  color: black;
+  color: white;
 }
 .sekcija-3 {
-  background-color: #006b43;
+  background-color: #fff6f0;
   font-family: "Open Sans", sans-serif;
 }
 .sekcija-3 td {
-  color: white;
-}
-.sekcija-4 {
-  background-color: #fff6f0;
-  font-family: "Open Sans", sans-serif;
-}
-.sekcija-4 td {
   color: black;
 }
-.sekcija-5 {
+.sekcija-4 {
   background-color: #006b43;
   font-family: "Open Sans", sans-serif;
 }
-.sekcija-5 td {
+.sekcija-4 td {
   color: white;
 }
-.sekcija-6 {
+.sekcija-5 {
   background-color: #fff6f0;
   font-family: "Open Sans", sans-serif;
 }
-.sekcija-6 td {
+.sekcija-5 td {
   color: black;
+}
+.sekcija-6 {
+  background-color: #006b43;
+  font-family: "Open Sans", sans-serif;
+}
+.sekcija-6 td {
+  color: white;
 }
 .tabela {
   vertical-align: middle;
-  margin-top: 4rem;
+  margin-top: 5rem;
   margin-bottom: 4rem;
   margin-left: 5rem;
-  display:table;
+  display: table;
 }
 .ribbon {
   width: 65%;
@@ -1180,18 +1181,19 @@ footer ul li:hover > a {
   margin-top: 3rem;
   margin-bottom: 3rem;
   font-family: "Lato", sans-serif;
-  text-align: middle;
+  text-align: center;
 }
 .logotip {
     width: 100%;
 }
 .krainer1 {
-  text-align: middle;
+  text-align: center;
   color: #01411f;
+  margin-top: 40rem;
 }
 .krainer2 {
   color: #006B43;
-  text-align: middle;
+  text-align: center;
 }
 .shadow5 {
   @media all and (max-width:783px) {

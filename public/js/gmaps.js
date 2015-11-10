@@ -7,9 +7,9 @@ function initialize() {
   var mq = window.matchMedia("(min-width: 768px)");
   var zoom;
   if (mq.matches) {
-    zoom = 14;
-  } else {
     zoom = 13;
+  } else {
+    zoom = 12;
   }
 
   var mapOptions = {
@@ -512,7 +512,7 @@ function initialize() {
     fontColor: 'darkgreen',
     strokeColor: 'black',
     strokeWeight: 4,
-    minZoom: 13
+   
   });
 
   var labelTwoNBG = new MapLabel({
@@ -524,7 +524,7 @@ function initialize() {
     fontColor: 'yellow',
     strokeColor: 'black',
     strokeWeight: 6,
-    minZoom: 13
+
   });
 
   var labelOneCNT = new MapLabel({
@@ -536,7 +536,7 @@ function initialize() {
     fontColor: 'darkgreen',
     strokeColor: 'black',
     strokeWeight: 4,
-    minZoom: 14
+   
   });
 
   var labelTwoCNT = new MapLabel({
@@ -548,7 +548,7 @@ function initialize() {
     fontColor: 'yellow',
     strokeColor: 'black',
     strokeWeight: 6,
-    minZoom: 14
+    
   });
 
 

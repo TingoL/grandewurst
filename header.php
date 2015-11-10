@@ -31,7 +31,7 @@
     <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/maplabel/src/maplabel-compiled.js"></script>
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="public/images/favicon.png" />
+    <!--<link rel="icon" type="image/png" href="public/images/favicon.png" />-->
   </head>
   <body>
     <!-- Header
@@ -78,7 +78,7 @@
                   -->
                 </li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="nav-link" href="dostava.php">Dostava</a></li>
-                <li <?php if($current == 'onama') {echo 'class="current"';} ?>><a class="nav-link" href="onama.php">O nama</a></li>
+                <li <?php if($current == 'krainer') {echo 'class="current"';} ?>><a class="nav-link" href="krainer.php">Krainer</a></li>
               </ul>
               </div><!--end primary-->
             </div>
