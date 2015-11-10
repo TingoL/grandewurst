@@ -17,7 +17,7 @@ require("header.php");
                                     <div class="welcome-section">
                                       <h3>Suhomesnati proizvodi</h3>
                                       <p class="border"></p>
-                                      <h6>Uživajte u originalnom Krainer ukusu po vašem receptu</h6>
+                                      <h6>Uživajte u originalnom Krainer receptu po vašem ukusu</h6>
                                     </div>
           
       </div>
