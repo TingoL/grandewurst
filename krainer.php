@@ -12,9 +12,8 @@ require("header.php");
   <div clas="container">
     <div class="row">
       <div class="twelve columns uvod">
-        <img class="logotip" src="public/images/krainer.jpg" />
         <div class="container">
-      
+        <img class="logotip" src="public/images/krainer.jpg" />
                                     <div class="welcome-section">
                                       <h3>Suhomesnati proizvodi</h3>
                                       <p class="border"></p>
