@@ -1112,6 +1112,12 @@ footer ul li:hover > a {
   font-family: "Open Sans", sans-serif;
   margin-top: 50px;
 }
+
+.sekcija-k1 {
+  background-color: #fff6f0;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0px;
+}
 .sekcija-1 td {
   color: black;
   white-space: nowrap;
@@ -1188,12 +1194,12 @@ footer ul li:hover > a {
 }
 .krainer1 {
   text-align: center;
-  color: #01411f;
-  margin-top: 40rem;
-}
-.krainer2 {
   color: #006B43;
   text-align: center;
+}
+.krainer2 {
+  color: #01411f;
+  margin-top: 40rem;
 }
 .shadow5 {
   @media all and (max-width:783px) {

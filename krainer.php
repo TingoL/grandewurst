@@ -26,7 +26,7 @@ require("header.php");
   </div>
 </div>
 
-<div class="sekcija-1">
+<div class="sekcija-2">
   <div class="container">
     <div class="row">
       <div class="one-half column slika">
@@ -69,7 +69,7 @@ require("header.php");
       </div>
     </div>
   </div>
-  <div class="sekcija-2">
+  <div class="sekcija-k1">
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
@@ -103,6 +103,43 @@ require("header.php");
           </div>
         </div>
       </div>
+      <div class="sekcija-4">
+            <div class="container">
+              <div class="row">
+                <div class="one-half column slika">
+                  <img class="meni-kobaje" src="public/images/sl1.jpg" />
+                  <div class="ribbon">
+                    <strong class="ribbon-content"><h1>Slice</h1></strong>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class ="one-half column tabela">
+                      <table class="u-full-width">
+                        <tbody>
+                          <tr>
+                            <td>Seljački Pršut Slice</td>
+                          </tr>
+                          <tr>
+                            <td>Buđola Slice</td>
+                          </tr>
+                          <tr>
+                            <td>Slanina Slice</td>
+                          </tr>
+                          <tr>
+                            <td>Alpska Salama Slice</td>
+                          </tr>
+                          <tr>
+                            <td>Biber Blok Slice</td>
+                          </tr>
+                          <tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
       <div class="sekcija-3">
         <div class="container">
           <div class="row">
@@ -143,41 +180,5 @@ require("header.php");
               </div>
             </div>
           </div>
-          <div class="sekcija-4">
-            <div class="container">
-              <div class="row">
-                <div class="one-half column slika">
-                  <img class="meni-kobaje" src="public/images/sl1.jpg" />
-                  <div class="ribbon">
-                    <strong class="ribbon-content"><h1>Slice</h1></strong>
-                  </div>
-                </div>
-                <div class="container">
-                  <div class="row">
-                    <div class ="one-half column tabela">
-                      <table class="u-full-width">
-                        <tbody>
-                          <tr>
-                            <td>Seljački Pršut Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Buđola Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Slanina Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Alpska Salama Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Biber Blok Slice</td>
-                          </tr>
-                          <tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          
 <?php require("footer.php"); ?>
