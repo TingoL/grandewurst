@@ -760,7 +760,7 @@ nav {
 .content-midd {
   padding-top: 1em;
   padding-bottom: 28px;
-  background-color:#01411f;
+  background-color:#006436;
 
   overflow: auto;
   height: auto;
@@ -1015,7 +1015,7 @@ footer ul li:hover > a {
   height: auto;
   padding: 20px 0 51px;
   
-  background-color: #01411f;
+  background-color: #006436;
 }
 .kontakt {
   display: block;
@@ -1026,7 +1026,7 @@ footer ul li:hover > a {
   color: #ffffff;
 }
 .kontakt div h3 {
-  color: #f08332;
+  color: #f47b29;
   font-family: "Lato", sans-serif;
   font-size: 43px;
   font-weight: 900;
@@ -1077,9 +1077,7 @@ footer ul li:hover > a {
   .kontakt div h3 {
     padding-top: 15px;
   }
-  .reon {
-    margin-bottom: 
-  }
+
 }
 
 /*
@@ -1193,7 +1191,7 @@ footer ul li:hover > a {
   width: 100%;
   vertical-align: middle;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  
   font-family: "Lato", sans-serif;
   text-align: center;
 }
