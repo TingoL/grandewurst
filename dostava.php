@@ -34,7 +34,7 @@
         </div>
         </div><!-- end kontakt-wrapper -->
         
-        <div class="container" style>
+        <div class="container">
           
           <div class="dostava-naslov twelve columns">
             <h2>Besplatna dostava u zavisnosti od narudžbine</h2>

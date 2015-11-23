@@ -14,12 +14,11 @@ require("header.php");
       <div class="twelve columns uvod">
         <div class="container">
         <img class="logotip" src="public/images/krainer.jpg" />
-                                    <div class="welcome-section">
-                                      <h3>Suhomesnati proizvodi</h3>
-                                      <p class="border"></p>
-                                      <h6>Uživajte u originalnom Krainer receptu po vašem ukusu</h6>
-                                    </div>
-          
+          <div class="welcome-section">
+            <h3>Suhomesnati proizvodi</h3>
+            <p class="border"></p>
+            <h6>Uživajte u originalnom Krainer receptu po vašem ukusu</h6>
+          </div>
       </div>
     </div>
   </div>

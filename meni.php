@@ -252,12 +252,15 @@
                                     <td>Chicken Nuggets 5/9/20kom</td>
                                     <td style="text-align:right">160/270/540 </td>
                                   </tr>
-                                  <tbody>
+                                  </tbody>
                                   </table>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
+                        </div>
                       </div>
+
+
 <?php require("footer.php"); ?>

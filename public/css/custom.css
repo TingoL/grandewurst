@@ -680,7 +680,7 @@ nav {
 
 /* Sections (izmeniti nazive klasa)
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#content-top {
+.content-top {
 
   /*padding: 0.5rem 0 7rem;*/
   background-color: #fff6f0;
@@ -757,7 +757,7 @@ nav {
   width: 86px;
   height: 80px;
 }
-#content-midd {
+.content-midd {
   padding-top: 1em;
   padding-bottom: 28px;
   background-color:#01411f;
@@ -767,10 +767,10 @@ nav {
   text-align: center;
   color: white;
 }
-#content-midd .welcome-section h3, #content-midd .welcome-section h6 {
+.content-midd .welcome-section h3, .content-midd .welcome-section h6 {
   color: #fff6f0;
 }
-#content-midd .welcome-section p {
+.content-midd .welcome-section p {
   border-bottom-color: #fff6f0;
 }
 .food-info {
@@ -800,11 +800,11 @@ nav {
 .food-info p {
   color: #fff6f0;
 }
-#content-bott {
+.content-bott {
   background-color: #fff6f0;
   padding: 51px 0 51px;
 }
-#content-bott span {
+.content-bott span {
   white-space: nowrap;
   font-size: 58px;
   font-weight: 900;
@@ -815,7 +815,7 @@ nav {
   display: inline-block;
   margin-top: 28px;
 }
-#content-bott span:first-child {
+.content-bott span:first-child {
   color: #F58634;
   margin-right: 2rem;
 }
@@ -980,7 +980,7 @@ footer ul li:hover > a {
 /* Bottom
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .bottom-copyr {
-  background: #006b43;
+  background: #006436;
   text-align: left;
 }
 .bottom-copyr p {
@@ -1209,3 +1209,36 @@ footer ul li:hover > a {
       font-size: 18px !important;
     }
   }
+}
+
+  /* O nama
+-------------------------------------------------- */
+
+.lokacije-wrapper {
+  margin-bottom: 50px;
+  overflow: auto;
+}
+
+.lokal-img {
+  height: 80%;
+  width: 80%;
+  
+  border-radius: 5%;
+  -moz-border-radius: 5%;
+  -webkit-border-radius: 5%;
+  padding: 5px;
+  background: #d15f27;
+}
+
+.ulica {
+  margin-top: 0;
+  color: #D15F27;
+}
+
+.reklama-wrapper {
+  margin: 60px 0 60px 0;
+}
+
+.reklama {
+  font-size: 20px;
+}

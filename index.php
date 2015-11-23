@@ -117,7 +117,7 @@
                               </div>
                               <!-- Content top
                               –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-                              <div id="content-top">
+                              <div class="content-top">
                                 <div class="top-segment">
                                   <div class="container">
                                     <div class="welcome-section">
@@ -153,7 +153,7 @@
                                     </div><!--end container-->
                                     </div><!--end top-segment-->
                                     </div><!--end content-top-->
-                                    <div id="content-midd">
+                                    <div class="content-midd">
                                       <div class="container">
                                         <div class="welcome-section">
                                           <h3>Šta naručiti?</h3>
@@ -184,7 +184,7 @@
                                       </div>
                                     </div>
                                   </div>
-                                  <div id="content-bott">
+                                  <div class="content-bott">
                                     <div class="container">
                                       <div class="row">
                                         <div class="new-info one-half column">

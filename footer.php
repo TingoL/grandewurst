@@ -43,7 +43,7 @@
           –––––––––––––––––––––––––––––––––––––––––––––––––– -->
           <div class="bottom-copyr">
             <div class="container">
-              <p>GRANDE WURST © 2014 All rights reserved</p>
+              <p>GRANDE WURST © 2014 - 2015 All rights reserved</p>
               </div><!-- end container -->
             </div>
             <script>
