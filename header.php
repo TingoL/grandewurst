@@ -79,6 +79,7 @@
                 </li>
                 <li <?php if($current == 'dostava') {echo 'class="current"';} ?>><a class="nav-link" href="dostava.php">Dostava</a></li>
                 <li <?php if($current == 'krainer') {echo 'class="current"';} ?>><a class="nav-link" href="krainer.php">Krainer</a></li>
+                <li <?php if($current == 'onama') {echo 'class="current"';} ?>><a class="nav-link" href="onama.php">O Nama</a></li>
               </ul>
               </div><!--end primary-->
             </div>

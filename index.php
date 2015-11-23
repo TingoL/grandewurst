@@ -138,7 +138,7 @@
                                         <div class="info-section">
                                           <img class="info-kruzici" src="public/images/icon2.png" />
                                         </div>
-                                        <h5 class="value-heading">Besplatna dostava</h5>
+                                        <h5 class="value-heading">Kućna dostava</h5>
                                         <p class="value-description">Poručite vašu omiljenu hranu iz vašeg doma.</p>
                                       </div>
                                       
