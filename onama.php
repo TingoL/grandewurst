@@ -17,11 +17,11 @@ require("header.php");
             na dve lokacije u Beogradu.</h6>
             <div class="lokacije-wrapper">
       <div class="one-half column">
-        <img class="lokal-img u-max-full-width " src="public/images/zorana-djindjica-lokal.jpg"/>
+        <img class="lokal-img u-max-full-width " src="public/images/skenderbegova-lokal.jpg"/>
         <h5 class="ulica">Bulevar Zorana Đinđića 12g</h4>
       </div>
       <div class="one-half column">
-        <img class="lokal-img u-max-full-width" src="public/images/skenderbegova-lokal.jpg"/>
+        <img class="lokal-img u-max-full-width" src="public/images/zorana-djindjica-lokal.jpg"/>
         <h5 class="ulica">Skenderbegova 53</h5>
       </div>
     </div>
