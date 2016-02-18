@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="one-half column slika">
-        <img class="meni-kobaje" src="public/images/krug4.jpg" />
+        <img class="meni-kobaje" src="public/images/krug4.png" />
         
       </div>
       <div class="container">
@@ -56,7 +56,7 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/krug2.jpg" />
+          <img class="meni-kobaje" src="public/images/krug2.png" />
           
         </div>
         <div class="container">
@@ -104,7 +104,7 @@
         <div class="container">
           <div class="row">
             <div class="one-half column slika">
-              <img class="meni-kobaje" src="public/images/krug6.jpg" />
+              <img class="meni-kobaje" src="public/images/krug6.png" />
              
             </div>
             <div class="container">
@@ -148,7 +148,7 @@
             <div class="container">
               <div class="row">
                 <div class="one-half column slika">
-                  <img class="meni-kobaje" src="public/images/krug5.jpg" />
+                  <img class="meni-kobaje" src="public/images/krug5.png" />
                  
                 </div>
                 <div class="container">
@@ -192,7 +192,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="one-half column slika">
-                      <img class="meni-kobaje" src="public/images/krug3.jpg" />
+                      <img class="meni-kobaje" src="public/images/krug3.png" />
                     
                     </div>
                     <div class="container">
@@ -232,7 +232,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="one-half column slika">
-                          <img class="meni-kobaje" src="public/images/krug1.jpg" />
+                          <img class="meni-kobaje" src="public/images/krug1.png" />
                          
                         </div>
                         <div class="container">
