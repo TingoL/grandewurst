@@ -13,38 +13,24 @@ require("header.php");
         
         <h6>Grande Wurst je fast food restoran i prodavnica suhomesnatih 
             proizvoda koja je među prvim na srpskom tržištu ponudila 
-            originalne Krainer proizvode. </h6>
-       
+            originalne Krainer proizvode. U našoj hrani možete uživati
+            na dve lokacije u Beogradu.</h6>
+            <div class="lokacije-wrapper">
+      <div class="one-half column">
+        <img class="lokal-img u-max-full-width " src="public/images/skenderbegova-lokal.jpg"/>
+        <h5 class="ulica">Bulevar Zorana Đinđića 12g</h5>
+      </div>
+      <div class="one-half column">
+        <img class="lokal-img u-max-full-width" src="public/images/zorana-djindjica-lokal.jpg"/>
+        <h5 class="ulica">Skenderbegova 53</h5>
+      </div>
+    </div>
       </div>
     </div>
   </div>
 </div>
 
 <div class="content-midd">
-  <div class="container">
-        <div class="welcome-section headless">
-        
-         
-          
-          <h6>U našoj hrani možete uživati
-              na dve lokacije u Beogradu.</h6>
-       
-        </div>
-        <h6></h6>
-        <div class="lokacije-wrapper">
-          <div class="one-half column">
-            <img class="lokal-img u-max-full-width " src="public/images/skenderbegova-lokal.jpg"/>
-            <h5 class="ulica">Bulevar Zorana Đinđića 12g</h5>
-          </div>
-          <div class="one-half column">
-            <img class="lokal-img u-max-full-width" src="public/images/zorana-djindjica-lokal.jpg"/>
-            <h5 class="ulica">Skenderbegova 53</h5>
-          </div>
-        </div>
-  </div>
-</div>
-
-<div class="content-bott">
   <div class="container">
     <div class="reklama-wrapper">
        <p class="reklama">U našim objektima pored raznih vrsta kobasica
@@ -53,7 +39,7 @@ require("header.php");
                 druga jela. Prihvatite naš poziv i svratite 
                 da probate nešto iz naše ponude. Sigurni smo
                 da ćete naći jelo po vašem ukusu!</p> 
-    </div>
+                </div>
     
   </div>
 </div>
@@ -63,3 +49,4 @@ require("header.php");
 
 
 <?php require("footer.php"); ?>
+

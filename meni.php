@@ -9,10 +9,8 @@
   <div class="container">
     <div class="row">
       <div class="one-half column slika">
-        <img class="meni-kobaje" src="public/images/kobasica-cropped.jpeg" />
-        <div class="ribbon">
-          <strong class="ribbon-content"><h1>Kobasice</h1></strong>
-        </div>
+        <img class="meni-kobaje" src="public/images/krug4.jpg" />
+        
       </div>
       <div class="container">
         <div class="row">
@@ -34,9 +32,17 @@
                 <td>Pivska 170g/85g</td>
                 <td style="text-align:right">260/150 </td>
               </tr>
+			   <tr>
+                <td>Bela 170g/85g</td>
+                <td style="text-align:right">280/160 </td>
+              </tr>
               <tr>
                 <td>Kranjska 170g/85g</td>
                 <td style="text-align:right">270/150 </td>
+              </tr>
+			  <tr>
+                <td>Laberkäse Large/Medium</td>
+                <td style="text-align:right">230/190 </td>
               </tr>
               <tbody>
               </table>
@@ -50,10 +56,8 @@
     <div class="container">
       <div class="row">
         <div class="one-half column slika">
-          <img class="meni-kobaje" src="public/images/sendvic-cropped.png" />
-          <div class="ribbon">
-            <strong class="ribbon-content"><h1>Sendviči</h1></strong>
-          </div>
+          <img class="meni-kobaje" src="public/images/krug2.jpg" />
+          
         </div>
         <div class="container">
           <div class="row">
@@ -65,7 +69,7 @@
                   <col id="cena" />
                   </colgroup>
                   <tr>
-                    <td>Buđola</td>
+                    <td>Pečenica</td>
                     <td style="text-align:right">170 </td>
                   </tr>
                   <tr>
@@ -100,10 +104,8 @@
         <div class="container">
           <div class="row">
             <div class="one-half column slika">
-              <img class="meni-kobaje" src="public/images/twister1024.jpg" />
-              <div class="ribbon">
-                <strong class="ribbon-content"><h1>Tortilje</h1></strong>
-              </div>
+              <img class="meni-kobaje" src="public/images/krug6.jpg" />
+             
             </div>
             <div class="container">
               <div class="row">
@@ -123,12 +125,16 @@
                         <td style="text-align:right">200 </td>
                       </tr>
                       <tr>
-                        <td>Piletina-Wurst cheese</td>
+                        <td>Piletina-Kobasica sa sirom</td>
                         <td style="text-align:right">220 </td>
                       </tr>
                       <tr>
-                        <td>Piletina-Wurst ljuta</td>
+                        <td>Piletina-Lucifer kobasica</td>
                         <td style="text-align:right">230 </td>
+                      </tr>
+					  <tr>
+                        <td>Tunjevina</td>
+                        <td style="text-align:right">200 </td>
                       </tr>
                       <tbody>
                       </table>
@@ -142,10 +148,8 @@
             <div class="container">
               <div class="row">
                 <div class="one-half column slika">
-                  <img class="meni-kobaje" src="public/images/salatica.jpg" />
-                  <div class="ribbon">
-                    <strong class="ribbon-content"><h1>Salate</h1></strong>
-                  </div>
+                  <img class="meni-kobaje" src="public/images/krug5.jpg" />
+                 
                 </div>
                 <div class="container">
                   <div class="row">
@@ -157,19 +161,23 @@
                           <col id="cena" />
                           </colgroup>
                           <tr>
-                            <td>Testenina-Piletina veća/manja</td>
+                            <td>Testenina-Piletina veća/manja<br>
+							  (testenina, piletina, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Testenina-Tunjevina veća/manja</td>
+                            <td>Testenina-Tunjevina veća/manja<br>
+							  (testenina, tunjevina, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Piletina-Jaje veća/manja</td>
+                            <td>Piletina-Jaje veća/manja<br>
+							  (piletina, jaje, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Cezar veća/manja</td>
+                            <td>Cezar veća/manja<br>
+							  (piletina, paradajz, kačkavalj, ajzberg, šunka, krutoni)</td>
                             <td style="text-align:right">250/180 </td>
                           </tr>
                           <tbody>
@@ -184,10 +192,8 @@
                 <div class="container">
                   <div class="row">
                     <div class="one-half column slika">
-                      <img class="meni-kobaje" src="public/images/slikaproteina.jpg" />
-                      <div class="ribbon">
-                        <strong class="ribbon-content"><h1>Šejkovi</h1></strong>
-                      </div>
+                      <img class="meni-kobaje" src="public/images/krug3.jpg" />
+                    
                     </div>
                     <div class="container">
                       <div class="row">
@@ -195,19 +201,23 @@
                           <table class="u-full-width">
                             <tbody>
                               <tr>
-                                <td>Protein Water</td>
+                                <td>Protein Water<br>
+								  (voda, protein 30g)</td>
                                 <td style="text-align:right">160 </td>
                               </tr>
                               <tr>
-                                <td>Protein Shake</td>
+                                <td>Protein Shake<br>
+								  (mleko, protein 25g, banana)</td>
                                 <td style="text-align:right">190 </td>
                               </tr>
                               <tr>
-                                <td>Protein Shake Mix</td>
+                                <td>Protein Shake Mix<br>
+								  (mleko, protein, kikiriki, banana, ovsene pahuljice)</td>
                                 <td style="text-align:right">180 </td>
                               </tr>
                               <tr>
-                                <td>Shake Obrok</td>
+                                <td>Shake Obrok<br>
+								  (mleko, plazma, kikiriki, ovsene pahuljice, badem, lešnik, suvo grožđe, kakao, dekstroza)</td>
                                 <td style="text-align:right">230 </td>
                               </tr>
                               <tbody>
@@ -222,10 +232,8 @@
                     <div class="container">
                       <div class="row">
                         <div class="one-half column slika">
-                          <img class="meni-kobaje" src="public/images/nuggets.jpg" />
-                          <div class="ribbon">
-                            <strong class="ribbon-content"><h1>Ostalo</h1></strong>
-                          </div>
+                          <img class="meni-kobaje" src="public/images/krug1.jpg" />
+                         
                         </div>
                         <div class="container">
                           <div class="row">

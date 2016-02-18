@@ -20,9 +20,9 @@
             <address class="address">
               <ul>
                 <li><h5>KONTAKT</h5></li>
-                <li>E-mail:<br> <span class="contactItem">grandewurst@gmail.com</li>
+                <li>E-mail:<br> <span class="contactItem">grande.wurst@gmail.com</li>
                 <li>Adresa:<br> <span class="contactItem">Bul. Zorana Đinđića 12g<br>     Skenderbegova 53</li>
-                <li>Tel. za porudžbine:<br> <span class="contactItem">062/55 12 55 <br> 062/55 28 55</li>
+                <li>Telefon za dostavu:<br> <span class="contactItem">062/55 12 55</li>
               </ul>
             </address>
           </div>

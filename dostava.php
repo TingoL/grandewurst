@@ -14,21 +14,18 @@
             <h3>Adresa</h3>
             <p>Bulevar Zorana Đinđića 12g<br>11070 Beograd - Novi Beograd<br>pon - sub: 8:00 - 23:00
             <br>nedelja: 12:00 - 22:00</p>
-            <p>Skenderbegova 53<br>11000 Beograd - Dorćol<br>pon - subota 7:00h - 23:00h
+            <p>Skenderbegova 53<br>11000 Beograd - Dorćol<br>pon - subota 8:00h - 23:00h
             <br>nedelja: 12:00h - 22:00h</p>
           </div>
           <div class="four columns">
             <h3>Telefon</h3>
-            <p>Bulevar Zorana Đinđića<br>
+            <p>
             062/ 55 12 55</p>
-            
-            <p>Skenderbegova<br>
-            062/ 55 28 55</p>
           </div>
           
           <div class="three columns">
             <h3>Email</h3>
-            <p>grandewurst@hotmail.rs</p>
+            <p>grande.wurst@gmail.rs</p>
           </div>
           </div><!-- end kontakt -->
         </div>
@@ -36,7 +33,7 @@
         
         <div class="container">
           
-          <div class="dostava-naslov twelve columns">
+			<div class="dostava-naslov twelve columns">
             <h2>Besplatna dostava u zavisnosti od narudžbine</h2>
             <p class="border"></p>
           </div>

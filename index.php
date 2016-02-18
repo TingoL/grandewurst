@@ -10,20 +10,7 @@
     <img id="slide0" src="public/images/slide0.jpg" \>
     <div class="inner-info">
       <div class="container">
-        <!--
-        <div class="info-wrap">
-          <div class="cena-wrap">
-            <p class="cena">100</p>
-            <p class="rsd">rsd</p>
-          </div>
-          <h1 class="artikal">
-          Austrijska kobasica 1
-          </h1>
-          <p class="opis">
-            Iznutrice, zubi, oči, mast, mlevene kosti
-          </p>
-        </div>
-        -->
+      
         </div><!-- end container -->
         </div><!-- end inner-info -->
         </div><!-- end slide -->
@@ -31,20 +18,7 @@
           <img id="slide1" src="public/images/slide1.jpg" \>
           <div class="inner-info">
             <div class="container">
-              <!--
-              <div class="info-wrap">
-                <div class="cena-wrap">
-                  <p class="cena">100</p>
-                  <p class="rsd">rsd</p>
-                </div>
-                <h1 class="artikal">
-                Austrijska kobasica 2
-                </h1>
-                <p class="opis">
-                  Iznutrice, zubi, oči, mast, mlevene kosti
-                </p>
-              </div>
-              -->
+              
               </div><!-- end container -->
               </div><!-- end inner-info -->
               </div><!-- end slide -->
@@ -52,20 +26,7 @@
                 <img id="slide2" src="public/images/slide2.jpg" \>
                 <div class="inner-info">
                   <div class="container">
-                    <!--
-                    <div class="info-wrap">
-                      <div class="cena-wrap">
-                        <p class="cena">100</p>
-                        <p class="rsd">rsd</p>
-                      </div>
-                      <h1 class="artikal">
-                      Austrijska kobasica 3
-                      </h1>
-                      <p class="opis">
-                        Iznutrice, zubi, oči, mast, mlevene kosti
-                      </p>
-                    </div>
-                    -->
+             
                     </div><!-- end container -->
                     </div><!-- end inner-info -->
                     </div><!-- end slide -->
@@ -73,20 +34,7 @@
                       <img id="slide3" src="public/images/slide3.jpg" \>
                       <div class="inner-info">
                         <div class="container">
-                          <!--
-                          <div class="info-wrap">
-                            <div class="cena-wrap">
-                              <p class="cena">100</p>
-                              <p class="rsd">rsd</p>
-                            </div>
-                            <h1 class="artikal">
-                            Austrijska kobasica 4
-                            </h1>
-                            <p class="opis">
-                              Iznutrice, zubi, oči, mast, mlevene kosti
-                            </p>
-                          </div>
-                          -->
+                          
                           </div><!-- end container -->
                           </div><!-- end inner-info -->
                           </div><!-- end slide -->
@@ -94,23 +42,18 @@
                             <img id="slide4" src="public/images/slide4.jpg" \>
                             <div class="inner-info">
                               <div class="container">
-                                <!--
-                                <div class="info-wrap">
-                                  <div class="cena-wrap">
-                                    <p class="cena">100</p>
-                                    <p class="rsd">rsd</p>
-                                  </div>
-                                  <h1 class="artikal">
-                                  Austrijska kobasica 4
-                                  </h1>
-                                  <p class="opis">
-                                    Iznutrice, zubi, oči, mast, mlevene kosti
-                                  </p>
-                                </div>
-                                -->
+                              
                                 </div><!-- end container -->
                                 </div><!-- end inner-info -->
                                 </div><!-- end slide -->
+                                <div class="slide">
+                                  <img id="slide5" src="public/images/slide5.jpg" \>
+                                  <div class="inner-info">
+                                    <div class="container">
+             
+                                      </div><!-- end container -->
+                                      </div><!-- end inner-info -->
+                                      </div><!-- end slide -->
                                 <a href="#" class="slidesjs-previous slidesjs-navigation slides-button"><span class="fa fa-chevron-left fa-4x"></span></a>
                                 <a href="#" class="slidesjs-next slidesjs-navigation slides-button"><span class="fa fa-chevron-right fa-4x"></span></a>
                                 
@@ -190,7 +133,7 @@
                                         <div class="new-info one-half column">
                                           <span>Novo! </span><span> Omlet lepinja</span>
                                           <p class="new-opis">
-                                            Probajte naš najnoviji proizvod! Omlet lepinja u domaćem somunu je tu za vaš savršen početak dana.
+                                            Probajte naš najnoviji proizvod! Omlet u domaćoj lepinji je tu za vaš savršen početak dana.
                                           </p>
                                           <p class="new-cena"> Samo </p><p class="new-cifra">170</p><p class="new-cena"> dinara! </p>
                                         </div>
