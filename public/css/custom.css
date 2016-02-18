@@ -989,6 +989,14 @@ footer ul li:hover > a {
   color: white;
 }
 
+@media all and (max-width:550px) {
+  .bottom-copyr p {
+    font-size: 12px !important;
+  }
+}
+
+
+
 /*
 -------------------------------------------------- */
 .vertical-align {
@@ -1086,13 +1094,9 @@ footer ul li:hover > a {
 -------------------------------------------------- */
 
 .meni-kobaje {
-  width: 60%;
-  height: 60%;
-  border-radius: 50%;
+  width: 85%;
+  height: 85%;
   text-align: center;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
   margin-top: 5rem;
   margin-bottom: 4rem;
 }
@@ -1245,7 +1249,7 @@ footer ul li:hover > a {
 
 .ulica {
   margin-top: 0;
-  color: white;
+  color: #D15F27;
 }
 
 .reklama-wrapper {
@@ -1255,5 +1259,5 @@ footer ul li:hover > a {
 .reklama {
   text-align: center;
   font-size: 20px;
-  color: #006436;
+  color: white;
 }

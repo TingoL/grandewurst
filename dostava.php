@@ -15,7 +15,7 @@
             <p>Bulevar Zorana Đinđića 12g<br>11070 Beograd - Novi Beograd<br>pon - sub: 8:00 - 23:00
             <br>nedelja: 12:00 - 22:00</p>
             <p>Skenderbegova 53<br>11000 Beograd - Dorćol<br>pon - subota 8:00h - 23:00h
-            <br>nedelja: 12:00h - 22:00h</p>
+			</p>
           </div>
           <div class="four columns">
             <h3>Telefon</h3>

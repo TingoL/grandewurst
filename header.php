@@ -48,7 +48,6 @@
             </div>
             <div class="nav-phone">
               <h3>062/ 55 12 55</h3>
-              <h3>062/ 55 28 55</h3>
             </div>
           </div>
           </div><!--end container-->
