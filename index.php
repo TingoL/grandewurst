@@ -131,11 +131,11 @@
                                     <div class="container">
                                       <div class="row">
                                         <div class="new-info one-half column">
-                                          <span>Novo! </span><span> Omlet lepinja</span>
+                                          <span>Novo! </span><span> Leberkäse </span>
                                           <p class="new-opis">
-                                            Probajte naš najnoviji proizvod! Omlet u domaćoj lepinji je tu za vaš savršen početak dana.
+                                            Probajte naš najnoviji proizvod! Leberkäse, austrijski specijalitet sada i kod nas.
                                           </p>
-                                          <p class="new-cena"> Samo </p><p class="new-cifra">170</p><p class="new-cena"> dinara! </p>
+                                          <p class="new-cena"> Samo </p><p class="new-cifra">190</p><p class="new-cena"> dinara! </p>
                                         </div>
                                         <img class="new-product one-half column u-max-full-width" src="public/images/omlet.png"/>
                                       </div>
