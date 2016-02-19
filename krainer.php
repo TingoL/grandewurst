@@ -15,7 +15,8 @@ require("header.php");
         <div class="container">
         <img class="logotip" src="public/images/krainer.jpg" />
           <div class="welcome-section">
-            <h3>Suhomesnati proizvodi</h3>
+            <h3>Suhomesnati <br>
+            proizvodi</h3>
             <p class="border"></p>
             <h6>Uživajte u originalnom Krainer receptu po vašem ukusu</h6>
           </div>
@@ -39,25 +40,32 @@ require("header.php");
             <table class="u-full-width">
               <tbody>
               <tr>
-                <td>Sa Sirom 170g/60g</td>
+                <td>Sa Sirom 500g/350g</td>
+                <td style="text-align:right">550/390 </td>
               </tr>
               <tr>
-                <td>Lucifer 170g/60g</td>
+                <td>Lucifer 850g/360g</td>
+                <td style="text-align:right">980/430 </td>
               </tr>
               <tr>
-                <td>Blago ljuta sa sirom 170g</td>
+                <td>Blago ljuta sa sirom 800g</td>
+                <td style="text-align:right">930 </td>
               </tr>
               <tr>
-                <td>Pivska 170g</td>
+                <td>Pivska 850g</td>
+                <td style="text-align:right">760 </td>
               </tr>
               <tr>
-                <td>Kranjska 170g</td>
+                <td>Kranjska 850g</td>
+                <td style="text-align:right">910 </td>
               </tr>
               <tr>
-                <td>Bečka</td>
+                <td>Bela 850g</td>
+                <td style="text-align:right">930 </td>
               </tr> 
               <tr>
-                <td>Šampion wurst</td>
+                <td>Laberkäse 1kg</td>
+                <td style="text-align:right">1050  </td>
               </tr> 
               <tbody>
               </table>
@@ -73,7 +81,7 @@ require("header.php");
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/sl5.jpg" />
           <div class="ribbon">
-            <strong class="ribbon-content"><h1>Šunka i pršut</h1></strong>
+            <strong class="ribbon-content"><h1>Šunka</h1></strong>
           </div>
         </div>
         <div class="container">
@@ -82,16 +90,16 @@ require("header.php");
               <table class="u-full-width">
                 <tbody>
                   <tr>
-                    <td>Sauna Šunka</td>
+                    <td>Sauna Šunka 1kg</td>
+                    <td style="text-align:right">1330 </td>
                   </tr>
                   <tr>
-                    <td>Pres Šunka</td>
+                    <td>Barena Šunka 1kg</td>
+                    <td style="text-align:right">1490 </td>
                   </tr>
                   <tr>
-                    <td>Seljački Pršut</td>
-                  </tr>
-                  <tr>
-                    <td>Seljački Pršut specijal</td>
+                    <td>Pečena Šunka 1kg</td>
+                    <td style="text-align:right">1550 </td>
                   </tr>
                   <tbody>
                   </table>
@@ -107,7 +115,7 @@ require("header.php");
                 <div class="one-half column slika">
                   <img class="meni-kobaje" src="public/images/sl1.jpg" />
                   <div class="ribbon">
-                    <strong class="ribbon-content"><h1>Slice</h1></strong>
+                    <strong class="ribbon-content"><h1>Pršut</h1></strong>
                   </div>
                 </div>
                 <div class="container">
@@ -116,19 +124,16 @@ require("header.php");
                       <table class="u-full-width">
                         <tbody>
                           <tr>
-                            <td>Seljački Pršut Slice</td>
+                            <td>Seljački Pršut 1kg</td>
+                            <td style="text-align:right">1890 </td>
                           </tr>
                           <tr>
-                            <td>Buđola Slice</td>
+                            <td>Seljački Pršut Specijal 1kg</td>
+                            <td style="text-align:right">2090 </td>
                           </tr>
                           <tr>
-                            <td>Slanina Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Alpska Salama Slice</td>
-                          </tr>
-                          <tr>
-                            <td>Biber Blok Slice</td>
+                            <td>Buđola Pečenica 1kg</td>
+                            <td style="text-align:right">1990 </td>
                           </tr>
                           <tbody>
                           </table>
@@ -153,22 +158,24 @@ require("header.php");
                   <table class="u-full-width">
                     <tbody>
                       <tr>
-                        <td>Pašteta Bundevino seme 200g</td>
+                        <td>Biber Blok Kobasica 1kg</td>
+                        <td style="text-align:right">1690 </td>
                       </tr>
                       <tr>
-                        <td>Pašteta Luk 125g</td>
+                        <td>Sudžuk Specijal 1kg</td>
+                        <td style="text-align:right">1420 </td>
                       </tr>
                       <tr>
-                        <td>Buđola</td>
+                        <td>Pančeta 1kg</td>
+                        <td style="text-align:right">1840 </td>
                       </tr>
                       <tr>
-                        <td>Pančeta</td>
+                        <td>Bečka Kobasica 1kg</td>
+                        <td style="text-align:right">990 </td>
                       </tr>
                       <tr>
-                        <td>Biber-Blok</td>
-                      </tr>
-                      <tr>
-                        <td>Alpska-Zimska Salama</td>
+                        <td>Alpska-Zimska Kobasica 1kg</td>
+                        <td style="text-align:right">1390 </td>
                       </tr>
                       <tbody>
                       </table>
