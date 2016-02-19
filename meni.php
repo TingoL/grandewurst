@@ -10,7 +10,7 @@
     <div class="row">
       <div class="one-half column slika">
         <img class="meni-kobaje" src="public/images/krug4.png" />
-        
+
       </div>
       <div class="container">
         <div class="row">
@@ -57,7 +57,7 @@
       <div class="row">
         <div class="one-half column slika">
           <img class="meni-kobaje" src="public/images/krug2.png" />
-          
+
         </div>
         <div class="container">
           <div class="row">
@@ -105,7 +105,7 @@
           <div class="row">
             <div class="one-half column slika">
               <img class="meni-kobaje" src="public/images/krug6.png" />
-             
+
             </div>
             <div class="container">
               <div class="row">
@@ -149,7 +149,7 @@
               <div class="row">
                 <div class="one-half column slika">
                   <img class="meni-kobaje" src="public/images/krug5.png" />
-                 
+
                 </div>
                 <div class="container">
                   <div class="row">
@@ -161,22 +161,26 @@
                           <col id="cena" />
                           </colgroup>
                           <tr>
-                            <td>Testenina-Piletina veća/manja<br>
+                            <td> </td>
+                            <td style="text-align:right">L/M </td>
+                          </tr>
+                          <tr>
+                            <td>Testenina-Piletina<br>
 							  (testenina, piletina, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Testenina-Tunjevina veća/manja<br>
+                            <td>Testenina-Tunjevina<br>
 							  (testenina, tunjevina, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Piletina-Jaje veća/manja<br>
+                            <td>Piletina-Jaje<br>
 							  (piletina, jaje, šećerac, kis. krastavac, šargarepa)</td>
                             <td style="text-align:right">240/170 </td>
                           </tr>
                           <tr>
-                            <td>Cezar veća/manja<br>
+                            <td>Cezar<br>
 							  (piletina, paradajz, kačkavalj, ajzberg, šunka, krutoni)</td>
                             <td style="text-align:right">250/180 </td>
                           </tr>
@@ -193,7 +197,7 @@
                   <div class="row">
                     <div class="one-half column slika">
                       <img class="meni-kobaje" src="public/images/krug3.png" />
-                    
+
                     </div>
                     <div class="container">
                       <div class="row">
@@ -233,7 +237,7 @@
                       <div class="row">
                         <div class="one-half column slika">
                           <img class="meni-kobaje" src="public/images/krug1.png" />
-                         
+
                         </div>
                         <div class="container">
                           <div class="row">
