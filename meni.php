@@ -162,7 +162,7 @@
                           </colgroup>
                           <tr>
                             <td> </td>
-                            <td style="text-align:right">L/M </td>
+                            <td style="text-align:right">Large/Medium </td>
                           </tr>
                           <tr>
                             <td>Testenina-Piletina<br>
