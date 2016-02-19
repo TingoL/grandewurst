@@ -268,7 +268,69 @@
                           </div>
                         </div>
                         </div>
-                      </div>
 
+<div class="sekcija-1">
+  <div class="container">
+    <div class="row">
+      <div class="one-half column slika">
+        <img class="meni-kobaje" src="public/images/krug4.png" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class ="one-half column tabela">
+            <table class="u-full-width">
+              <tbody>
+                <tr>
+                  <td>Jogurt Zapis Tare 0.5/0.18</td>
+                  <td style="text-align:right">65/25 </td>
+                </tr>
+                <tr>
+                <td>Rosa 0.5</td>
+                <td style="text-align:right">50 </td>
+              </tr>
+                <tr>
+                <td>Knjaz Miloš 0.5</td>
+                <td style="text-align:right">50 </td>
+              </tr>
+              <tr>
+                <td>Coca Cola 0.5/0.33</td>
+                <td style="text-align:right">70/70 </td>
+              </tr>
+              <tr>
+                <td>Fanta 0.5</td>
+                <td style="text-align:right">70 </td>
+              </tr>
+			   <tr>
+                <td>Schweppes Bitter Lemon 0.5</td>
+                <td style="text-align:right">70 </td>
+              </tr>
+              <tr>
+                <td>Guarana</td>
+                <td style="text-align:right">70 </td>
+              </tr>
+			        <tr>
+                <td>Next Joy Pomorandža 0.5</td>
+                <td style="text-align:right">70 </td>
+              </tr>
+			        <tr>
+                <td>NesTea Breskva 0.5</td>
+                <td style="text-align:right">70 </td>
+              </tr>
+			        <tr>
+                <td>Pivo Zaječarsko 0.5/0.33</td>
+                <td style="text-align:right">90/70 </td>
+              </tr>
+			        <tr>
+                <td>Pivo Paulaner 0.5</td>
+                <td style="text-align:right">150 </td>
+              </tr>
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <?php require("footer.php"); ?>
