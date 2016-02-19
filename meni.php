@@ -277,7 +277,7 @@
   <div class="container">
     <div class="row">
       <div class="one-half column slika">
-        <img class="meni-kobaje" src="public/images/krug4.png" />
+        <img class="meni-kobaje" src="public/images/krug7.png" />
       </div>
       <div class="container">
         <div class="row">

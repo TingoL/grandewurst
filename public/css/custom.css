@@ -841,8 +841,11 @@ nav {
   font-size: 36px !important;
 }
 .new-product {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  display: inline-block;
+  width: 300px !important;
+  height: 300px !important;
+  float: right;
+  margin-top: 20px;
 }
 @media all and (max-width:768px) {
   .food-img {
@@ -851,6 +854,10 @@ nav {
   }
   .food-info {
     padding-bottom: 36px;
+  }
+  .new-product {
+    float: none;
+    margin: 40px auto;
   }
 }
 
